@@ -1,1 +1,9 @@
-{"data":"InVzZSBjbGllbnQiCgppbXBvcnQgKiBhcyBSZWFjdCBmcm9tICJyZWFjdCIKaW1wb3J0IHsgVGhlbWVQcm92aWRlciBhcyBOZXh0VGhlbWVzUHJvdmlkZXIgfSBmcm9tICJuZXh0LXRoZW1lcyIKaW1wb3J0IHsgdHlwZSBUaGVtZVByb3ZpZGVyUHJvcHMgfSBmcm9tICJuZXh0LXRoZW1lcy9kaXN0L3R5cGVzIgoKZXhwb3J0IGZ1bmN0aW9uIFRoZW1lUHJvdmlkZXIoeyBjaGlsZHJlbiwgLi4ucHJvcHMgfTogVGhlbWVQcm92aWRlclByb3BzKSB7CiAgcmV0dXJuIDxOZXh0VGhlbWVzUHJvdmlkZXIgey4uLnByb3BzfT57Y2hpbGRyZW59PC9OZXh0VGhlbWVzUHJvdmlkZXI+Cn0K"}
+"use client"
+
+import * as React from "react"
+import { ThemeProvider as NextThemesProvider } from "next-themes"
+import { type ThemeProviderProps } from "next-themes/dist/types"
+
+export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
+  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+}

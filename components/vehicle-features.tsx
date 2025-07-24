@@ -1,1 +1,203 @@
-{"data":"Cid1c2UgY2xpZW50JzsKCmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nOwppbXBvcnQgeyB1c2VJblZpZXcgfSBmcm9tICdyZWFjdC1pbnRlcnNlY3Rpb24tb2JzZXJ2ZXInOwppbXBvcnQgeyAKICBaYXAsIAogIFNoaWVsZCwgCiAgV2lmaSwgCiAgU25vd2ZsYWtlLCAKICBWb2x1bWUyLCAKICBTbWFydHBob25lLAogIExlYWYsCiAgU3Rhcgp9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCBJbWFnZSBmcm9tICduZXh0L2ltYWdlJzsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFZlaGljbGVGZWF0dXJlcygpIHsKICBjb25zdCBbcmVmLCBpblZpZXddID0gdXNlSW5WaWV3KHsKICAgIHRyaWdnZXJPbmNlOiB0cnVlLAogICAgdGhyZXNob2xkOiAwLjEsCiAgfSk7CgogIGNvbnN0IGZlYXR1cmVzID0gWwogICAgewogICAgICBpY29uOiBaYXAsCiAgICAgIHRpdGxlOiAnRWxlY3RyaWMgUGVyZm9ybWFuY2UnLAogICAgICBkZXNjcmlwdGlvbjogJ1plcm8gZW1pc3Npb25zIHdpdGggaW5zdGFudCBhY2NlbGVyYXRpb24gYW5kIHdoaXNwZXItcXVpZXQgb3BlcmF0aW9uJywKICAgIH0sCiAgICB7CiAgICAgIGljb246IFNoaWVsZCwKICAgICAgdGl0bGU6ICdBZHZhbmNlZCBTYWZldHknLAogICAgICBkZXNjcmlwdGlvbjogJzUtc3RhciBzYWZldHkgcmF0aW5nIHdpdGggQXV0b3BpbG90IGFuZCBjb2xsaXNpb24gYXZvaWRhbmNlIHN5c3RlbXMnLAogICAgfSwKICAgIHsKICAgICAgaWNvbjogV2lmaSwKICAgICAgdGl0bGU6ICdQcmVtaXVtIENvbm5lY3Rpdml0eScsCiAgICAgIGRlc2NyaXB0aW9uOiAnSGlnaC1zcGVlZCBpbnRlcm5ldCBhbmQgZW50ZXJ0YWlubWVudCBzeXN0ZW0gZm9yIHByb2R1Y3RpdmUgdHJhdmVsJywKICAgIH0sCiAgICB7CiAgICAgIGljb246IFNub3dmbGFrZSwKICAgICAgdGl0bGU6ICdDbGltYXRlIENvbnRyb2wnLAogICAgICBkZXNjcmlwdGlvbjogJ0R1YWwtem9uZSBjbGltYXRlIGNvbnRyb2wgd2l0aCBIRVBBIGFpciBmaWx0cmF0aW9uIHN5c3RlbScsCiAgICB9LAogICAgewogICAgICBpY29uOiBWb2x1bWUyLAogICAgICB0aXRsZTogJ1ByZW1pdW0gQXVkaW8nLAogICAgICBkZXNjcmlwdGlvbjogJzE0LXNwZWFrZXIgc291bmQgc3lzdGVtIGZvciBhbiBpbW1lcnNpdmUgYXVkaW8gZXhwZXJpZW5jZScsCiAgICB9LAogICAgewogICAgICBpY29uOiBTbWFydHBob25lLAogICAgICB0aXRsZTogJ1NtYXJ0IEZlYXR1cmVzJywKICAgICAgZGVzY3JpcHRpb246ICdXaXJlbGVzcyBjaGFyZ2luZywgVVNCLUMgcG9ydHMsIGFuZCBtb2JpbGUgYXBwIGludGVncmF0aW9uJywKICAgIH0sCiAgICB7CiAgICAgIGljb246IExlYWYsCiAgICAgIHRpdGxlOiAnRWNvLUZyaWVuZGx5JywKICAgICAgZGVzY3JpcHRpb246ICdTdXN0YWluYWJsZSBsdXh1cnkgd2l0aCB6ZXJvIGxvY2FsIGVtaXNzaW9ucycsCiAgICB9LAogICAgewogICAgICBpY29uOiBTdGFyLAogICAgICB0aXRsZTogJ0x1eHVyeSBJbnRlcmlvcicsCiAgICAgIGRlc2NyaXB0aW9uOiAnV2hpdGUgdmVnYW4gbGVhdGhlciBzZWF0cyB3aXRoIHBhbm9yYW1pYyBnbGFzcyByb29mJywKICAgIH0sCiAgXTsKCiAgY29uc3Qgc3BlY3MgPSBbCiAgICB7IGxhYmVsOiAnTW9kZWwgWWVhcicsIHZhbHVlOiAnMjAyNScgfSwKICAgIHsgbGFiZWw6ICdWZWhpY2xlJywgdmFsdWU6ICdUZXNsYSBNb2RlbCBZJyB9LAogICAgeyBsYWJlbDogJ0NvbG9yJywgdmFsdWU6ICdCbGFjayBFeHRlcmlvcicgfSwKICAgIHsgbGFiZWw6ICdJbnRlcmlvcicsIHZhbHVlOiAnV2hpdGUgVmVnYW4gTGVhdGhlcicgfSwKICAgIHsgbGFiZWw6ICdTZWF0aW5nJywgdmFsdWU6ICdVcCB0byA1IFBhc3NlbmdlcnMnIH0sCiAgICB7IGxhYmVsOiAnUmFuZ2UnLCB2YWx1ZTogJzMzMCsgTWlsZXMnIH0sCiAgXTsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGlkPSJ2ZWhpY2xlIiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy1ncmF5LTkwMCB0ZXh0LXdoaXRlIHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgIHsvKiBCYWNrZ3JvdW5kIFBhdHRlcm4gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIG9wYWNpdHktMTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLWJyIGZyb20tWyMwMDkxZWFdIHRvLXRyYW5zcGFyZW50IiAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItbWF4IHJlbGF0aXZlIHotMTAiPgogICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICByZWY9e3JlZn0KICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogNTAgfX0KICAgICAgICAgIGFuaW1hdGU9e2luVmlldyA/IHsgb3BhY2l0eTogMSwgeTogMCB9IDoge319CiAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjggfX0KICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiCiAgICAgICAgPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC00eGwgbWQ6dGV4dC01eGwgZm9udC1ib2xkIG1iLTYiPgogICAgICAgICAgICBFeHBlcmllbmNlIHRoZSA8c3BhbiBjbGFzc05hbWU9InRleHQtWyMwMDkxZWFdIj4yMDI1IFRlc2xhIE1vZGVsIFk8L3NwYW4+CiAgICAgICAgICA8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhsIHRleHQtZ3JheS0zMDAgbWF4LXctM3hsIG14LWF1dG8gbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgVHJhdmVsIGluIG91ciBicmFuZCBuZXcgVGVzbGEgTW9kZWwgWSwgY29tYmluaW5nIGx1eHVyeSwgdGVjaG5vbG9neSwgCiAgICAgICAgICAgIGFuZCBlbnZpcm9ubWVudGFsIGNvbnNjaW91c25lc3MgZm9yIHRoZSB1bHRpbWF0ZSBjaGF1ZmZldXIgZXhwZXJpZW5jZS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L21vdGlvbi5kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGxnOmdyaWQtY29scy0yIGdhcC0xNiBpdGVtcy1jZW50ZXIgbWItMTYiPgogICAgICAgICAgey8qIFZlaGljbGUgSW1hZ2UgKi99CiAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHg6IC01MCB9fQogICAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHg6IDAgfSA6IHt9fQogICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjgsIGRlbGF5OiAwLjIgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGFzcGVjdC1bNC8zXSByb3VuZGVkLTJ4bCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgICAgIDxJbWFnZQogICAgICAgICAgICAgICAgc3JjPSIvaW1hZ2VzL2x1Z2dhZ2VzY2lmaS5qcGciCiAgICAgICAgICAgICAgICBhbHQ9IjIwMjUgVGVzbGEgTW9kZWwgWSB3aXRoIFByb2Zlc3Npb25hbCBDaGF1ZmZldXIgU2VydmljZSAtIFJ5ZGVsaWdodCIKICAgICAgICAgICAgICAgIGZpbGwKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ib2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDwvbW90aW9uLmRpdj4KCiAgICAgICAgICB7LyogVmVoaWNsZSBTcGVjcyAqL30KICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeDogNTAgfX0KICAgICAgICAgICAgYW5pbWF0ZT17aW5WaWV3ID8geyBvcGFjaXR5OiAxLCB4OiAwIH0gOiB7fX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBkZWxheTogMC40IH19CiAgICAgICAgICA+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCBtYi04Ij5WZWhpY2xlIFNwZWNpZmljYXRpb25zPC9oMz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgICAge3NwZWNzLm1hcCgoc3BlYywgaW5kZXgpID0+ICgKICAgICAgICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgICAgICAgIGtleT17c3BlYy5sYWJlbH0KICAgICAgICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB4OiAzMCB9fQogICAgICAgICAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHg6IDAgfSA6IHt9fQogICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjYsIGRlbGF5OiAwLjYgKyBpbmRleCAqIDAuMSB9fQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBweS0zIGJvcmRlci1iIGJvcmRlci1ncmF5LTcwMCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIGZvbnQtbWVkaXVtIj57c3BlYy5sYWJlbH08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC13aGl0ZSBmb250LXNlbWlib2xkIj57c3BlYy52YWx1ZX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtOCI+CiAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgIGhyZWY9Imh0dHBzOi8vY3VzdG9tZXIubW9vdnMuYXBwL3J5ZGVsaWdodC9uZXcvaW5mbyIKICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJidG4tcHJpbWFyeSBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0yIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxzcGFuPkJvb2sgWW91ciBUZXNsYSBFeHBlcmllbmNlPC9zcGFuPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBGZWF0dXJlcyBHcmlkICovfQogICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDUwIH19CiAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHk6IDAgfSA6IHt9fQogICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBkZWxheTogMC42IH19CiAgICAgICAgPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtY2VudGVyIG1iLTEyIj5QcmVtaXVtIEZlYXR1cmVzPC9oMz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy00IGdhcC04Ij4KICAgICAgICAgICAge2ZlYXR1cmVzLm1hcCgoZmVhdHVyZSwgaW5kZXgpID0+ICgKICAgICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgICAga2V5PXtmZWF0dXJlLnRpdGxlfQogICAgICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAzMCB9fQogICAgICAgICAgICAgICAgYW5pbWF0ZT17aW5WaWV3ID8geyBvcGFjaXR5OiAxLCB5OiAwIH0gOiB7fX0KICAgICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNiwgZGVsYXk6IDAuOCArIGluZGV4ICogMC4xIH19CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImJnLWdyYXktODAwIHJvdW5kZWQteGwgcC02IGhvdmVyOmJnLWdyYXktNzAwIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTMwMCBib3JkZXIgYm9yZGVyLWdyYXktNzAwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTEyIGgtMTIgYmctWyMwMDkxZWFdIHJvdW5kZWQtbGcgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbWItNCI+CiAgICAgICAgICAgICAgICAgIDxmZWF0dXJlLmljb24gY2xhc3NOYW1lPSJ3LTYgaC02IHRleHQtd2hpdGUiIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9InRleHQtbGcgZm9udC1zZW1pYm9sZCBtYi0zIj57ZmVhdHVyZS50aXRsZX08L2g0PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIHRleHQtc20gbGVhZGluZy1yZWxheGVkIj57ZmVhdHVyZS5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvbW90aW9uLmRpdj4KCiAgICAgICAgey8qIEludGVyaW9yIFNob3djYXNlICovfQogICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDUwIH19CiAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHk6IDAgfSA6IHt9fQogICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBkZWxheTogMS4wIH19CiAgICAgICAgICBjbGFzc05hbWU9Im10LTIwIHRleHQtY2VudGVyIgogICAgICAgID4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCBtYi04Ij5MdXh1cmlvdXMgSW50ZXJpb3I8L2gzPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGFzcGVjdC1bMTYvOV0gcm91bmRlZC0yeGwgb3ZlcmZsb3ctaGlkZGVuIG1heC13LTR4bCBteC1hdXRvIj4KICAgICAgICAgICAgPEltYWdlCiAgICAgICAgICAgICAgc3JjPSJodHRwczovL2kueXRpbWcuY29tL3ZpL2NSc2pGSVU5UFhFL21heHJlc2RlZmF1bHQuanBnIgogICAgICAgICAgICAgIGFsdD0iVGVzbGEgTW9kZWwgWSBJbnRlcmlvciAtIFdoaXRlIFZlZ2FuIExlYXRoZXIiCiAgICAgICAgICAgICAgZmlsbAogICAgICAgICAgICAgIGNsYXNzTmFtZT0ib2JqZWN0LWNvdmVyIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtZ3JheS0zMDAgbXQtNiBtYXgtdy0yeGwgbXgtYXV0byI+CiAgICAgICAgICAgIFJlbGF4IGluIHByZW1pdW0gd2hpdGUgdmVnYW4gbGVhdGhlciBzZWF0cyB1bmRlciBhIHBhbm9yYW1pYyBnbGFzcyByb29mLCAKICAgICAgICAgICAgZW5qb3lpbmcgdGhlIHNwYWNpb3VzIGFuZCBtb2Rlcm4gaW50ZXJpb3IgZGVzaWduZWQgZm9yIHVsdGltYXRlIGNvbWZvcnQuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9Cg=="}
+
+'use client';
+
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { 
+  Zap, 
+  Shield, 
+  Wifi, 
+  Snowflake, 
+  Volume2, 
+  Smartphone,
+  Leaf,
+  Star
+} from 'lucide-react';
+import Image from 'next/image';
+
+export default function VehicleFeatures() {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  const features = [
+    {
+      icon: Zap,
+      title: 'Electric Performance',
+      description: 'Zero emissions with instant acceleration and whisper-quiet operation',
+    },
+    {
+      icon: Shield,
+      title: 'Advanced Safety',
+      description: '5-star safety rating with Autopilot and collision avoidance systems',
+    },
+    {
+      icon: Wifi,
+      title: 'Premium Connectivity',
+      description: 'High-speed internet and entertainment system for productive travel',
+    },
+    {
+      icon: Snowflake,
+      title: 'Climate Control',
+      description: 'Dual-zone climate control with HEPA air filtration system',
+    },
+    {
+      icon: Volume2,
+      title: 'Premium Audio',
+      description: '14-speaker sound system for an immersive audio experience',
+    },
+    {
+      icon: Smartphone,
+      title: 'Smart Features',
+      description: 'Wireless charging, USB-C ports, and mobile app integration',
+    },
+    {
+      icon: Leaf,
+      title: 'Eco-Friendly',
+      description: 'Sustainable luxury with zero local emissions',
+    },
+    {
+      icon: Star,
+      title: 'Luxury Interior',
+      description: 'White vegan leather seats with panoramic glass roof',
+    },
+  ];
+
+  const specs = [
+    { label: 'Model Year', value: '2025' },
+    { label: 'Vehicle', value: 'Tesla Model Y' },
+    { label: 'Color', value: 'Black Exterior' },
+    { label: 'Interior', value: 'White Vegan Leather' },
+    { label: 'Seating', value: 'Up to 5 Passengers' },
+    { label: 'Range', value: '330+ Miles' },
+  ];
+
+  return (
+    <section id="vehicle" className="section-padding bg-gray-900 text-white relative overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0091ea] to-transparent" />
+      </div>
+
+      <div className="container-max relative z-10">
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            Experience the <span className="text-[#0091ea]">2025 Tesla Model Y</span>
+          </h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Travel in our brand new Tesla Model Y, combining luxury, technology, 
+            and environmental consciousness for the ultimate chauffeur experience.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
+          {/* Vehicle Image */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="relative"
+          >
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image
+                src="/images/luggagescifi.jpg"
+                alt="2025 Tesla Model Y with Professional Chauffeur Service - Rydelight"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+          </motion.div>
+
+          {/* Vehicle Specs */}
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            <h3 className="text-3xl font-bold mb-8">Vehicle Specifications</h3>
+            <div className="space-y-4">
+              {specs.map((spec, index) => (
+                <motion.div
+                  key={spec.label}
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={inView ? { opacity: 1, x: 0 } : {}}
+                  transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
+                  className="flex justify-between items-center py-3 border-b border-gray-700"
+                >
+                  <span className="text-gray-300 font-medium">{spec.label}</span>
+                  <span className="text-white font-semibold">{spec.value}</span>
+                </motion.div>
+              ))}
+            </div>
+            <div className="mt-8">
+              <a
+                href="https://customer.moovs.app/rydelight/new/info"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex items-center space-x-2"
+              >
+                <span>Book Your Tesla Experience</span>
+              </a>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Features Grid */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        >
+          <h3 className="text-3xl font-bold text-center mb-12">Premium Features</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {features.map((feature, index) => (
+              <motion.div
+                key={feature.title}
+                initial={{ opacity: 0, y: 30 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
+                className="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 border border-gray-700"
+              >
+                <div className="w-12 h-12 bg-[#0091ea] rounded-lg flex items-center justify-center mb-4">
+                  <feature.icon className="w-6 h-6 text-white" />
+                </div>
+                <h4 className="text-lg font-semibold mb-3">{feature.title}</h4>
+                <p className="text-gray-300 text-sm leading-relaxed">{feature.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Interior Showcase */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 1.0 }}
+          className="mt-20 text-center"
+        >
+          <h3 className="text-3xl font-bold mb-8">Luxurious Interior</h3>
+          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden max-w-4xl mx-auto">
+            <Image
+              src="https://i.ytimg.com/vi/cRsjFIU9PXE/maxresdefault.jpg"
+              alt="Tesla Model Y Interior - White Vegan Leather"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <p className="text-gray-300 mt-6 max-w-2xl mx-auto">
+            Relax in premium white vegan leather seats under a panoramic glass roof, 
+            enjoying the spacious and modern interior designed for ultimate comfort.
+          </p>
+        </motion.div>
+      </div>
+    </section>
+  );
+}

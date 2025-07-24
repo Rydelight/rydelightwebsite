@@ -1,1 +1,157 @@
-{"data":"Cid1c2UgY2xpZW50JzsKCmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nOwppbXBvcnQgeyB1c2VJblZpZXcgfSBmcm9tICdyZWFjdC1pbnRlcnNlY3Rpb24tb2JzZXJ2ZXInOwppbXBvcnQgeyBTdGFyLCBRdW90ZSwgVXNlciB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB0ZXN0aW1vbmlhbHNEYXRhIGZyb20gJy4uL2RhdGEvdGVzdGltb25pYWxzLmpzb24nOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVGVzdGltb25pYWxzKCkgewogIGNvbnN0IFtyZWYsIGluVmlld10gPSB1c2VJblZpZXcoewogICAgdHJpZ2dlck9uY2U6IHRydWUsCiAgICB0aHJlc2hvbGQ6IDAuMSwKICB9KTsKCiAgLy8gVHJhbnNmb3JtIHRoZSByZWFsIHRlc3RpbW9uaWFscyBkYXRhIHRvIG1hdGNoIG91ciBjb21wb25lbnQgc3RydWN0dXJlCiAgY29uc3QgdGVzdGltb25pYWxzID0gdGVzdGltb25pYWxzRGF0YS5tYXAoKHRlc3RpbW9uaWFsLCBpbmRleCkgPT4gKHsKICAgIG5hbWU6IHRlc3RpbW9uaWFsLnJldmlld2VyX25hbWUsCiAgICByb2xlOiAnVmVyaWZpZWQgQ3VzdG9tZXInLAogICAgY29tcGFueTogdGVzdGltb25pYWwuc291cmNlX3BsYXRmb3JtLAogICAgcmF0aW5nOiBNYXRoLmZsb29yKHRlc3RpbW9uaWFsLnJhdGluZyksCiAgICB0ZXh0OiB0ZXN0aW1vbmlhbC5yZXZpZXdfdGV4dCwKICAgIHNlcnZpY2U6ICdSeWRlbGlnaHQgUHJlbWl1bSBTZXJ2aWNlJywKICB9KSk7CgogIC8vIEFkZCBzb21lIGFkZGl0aW9uYWwgdGVzdGltb25pYWxzIHRvIGZpbGwgb3V0IHRoZSBncmlkIG5pY2VseQogIGNvbnN0IGFkZGl0aW9uYWxUZXN0aW1vbmlhbHMgPSBbCiAgICB7CiAgICAgIG5hbWU6ICdTYXJhaCBLLicsCiAgICAgIHJvbGU6ICdCdXNpbmVzcyBFeGVjdXRpdmUnLAogICAgICBjb21wYW55OiAnR29vZ2xlIFJldmlld3MnLAogICAgICByYXRpbmc6IDUsCiAgICAgIHRleHQ6ICdTY290dCBhbmQgdGhlIFJ5ZGVsaWdodCB0ZWFtIGFyZSBhYnNvbHV0ZWx5IGZhbnRhc3RpYyEgUHJvZmVzc2lvbmFsLCBwdW5jdHVhbCwgYW5kIHRoZSBUZXNsYSBpcyBzcG90bGVzcy4gUGVyZmVjdCBmb3IgYnVzaW5lc3MgbWVldGluZ3MgYW5kIHNwZWNpYWwgb2NjYXNpb25zLicsCiAgICAgIHNlcnZpY2U6ICdSeWRlbGlnaHQgRXhlY3V0aXZlIFNlcnZpY2UnLAogICAgfSwKICAgIHsKICAgICAgbmFtZTogJ0RhdmlkIFIuJywKICAgICAgcm9sZTogJ0FpcnBvcnQgVHJhdmVsZXInLAogICAgICBjb21wYW55OiAnWWVscCcsCiAgICAgIHJhdGluZzogNSwKICAgICAgdGV4dDogJ1VzZWQgUnlkZWxpZ2h0IGZvciBERlcgYWlycG9ydCBwaWNrdXAgYW5kIGl0IHdhcyBzZWFtbGVzcy4gVGhlIFRlc2xhIE1vZGVsIFkgaXMgc28gY29tZm9ydGFibGUgYW5kIHF1aWV0LiBXaWxsIGRlZmluaXRlbHkgYm9vayBhZ2FpbiBmb3IgZnV0dXJlIHRyaXBzLicsCiAgICAgIHNlcnZpY2U6ICdSeWRlbGlnaHQgQWlycG9ydCBUcmFuc2ZlcicsCiAgICB9LAogIF07CgogIGNvbnN0IGFsbFRlc3RpbW9uaWFscyA9IFsuLi50ZXN0aW1vbmlhbHMsIC4uLmFkZGl0aW9uYWxUZXN0aW1vbmlhbHNdOwoKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzZWN0aW9uLXBhZGRpbmcgYmctd2hpdGUiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyLW1heCI+CiAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgIHJlZj17cmVmfQogICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiA1MCB9fQogICAgICAgICAgYW5pbWF0ZT17aW5WaWV3ID8geyBvcGFjaXR5OiAxLCB5OiAwIH0gOiB7fX0KICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuOCB9fQogICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi0xNiIKICAgICAgICA+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi02Ij4KICAgICAgICAgICAgV2hhdCBPdXIgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWdyYWRpZW50Ij5DbGllbnRzIFNheTwvc3Bhbj4KICAgICAgICAgIDwvaDI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteGwgdGV4dC1ncmF5LTYwMCBtYXgtdy0zeGwgbXgtYXV0byBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgICBEb24ndCBqdXN0IHRha2Ugb3VyIHdvcmQgZm9yIGl0LiBIZXJlJ3Mgd2hhdCBvdXIgdmFsdWVkIGNsaWVudHMgaGF2ZSB0byBzYXkgCiAgICAgICAgICAgIGFib3V0IHRoZWlyIFJ5ZGVsaWdodCBleHBlcmllbmNlLgogICAgICAgICAgPC9wPgogICAgICAgIDwvbW90aW9uLmRpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTgiPgogICAgICAgICAge2FsbFRlc3RpbW9uaWFscy5tYXAoKHRlc3RpbW9uaWFsLCBpbmRleCkgPT4gKAogICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgIGtleT17YCR7dGVzdGltb25pYWwubmFtZX0tJHtpbmRleH1gfQogICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogNTAgfX0KICAgICAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHk6IDAgfSA6IHt9fQogICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNiwgZGVsYXk6IGluZGV4ICogMC4yIH19CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJiZy1ncmF5LTUwIHJvdW5kZWQtMnhsIHAtOCByZWxhdGl2ZSBob3ZlcjpzaGFkb3ctbGcgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFF1b3RlIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTYgcmlnaHQtNiB3LTggaC04IHRleHQtWyMwMDkxZWFdIG9wYWNpdHktMjAiIC8+CiAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgey8qIFJhdGluZyAqL30KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0xIG1iLTYiPgogICAgICAgICAgICAgICAge1suLi5BcnJheSh0ZXN0aW1vbmlhbC5yYXRpbmcpXS5tYXAoKF8sIGkpID0+ICgKICAgICAgICAgICAgICAgICAgPFN0YXIga2V5PXtpfSBjbGFzc05hbWU9InctNSBoLTUgdGV4dC15ZWxsb3ctNDAwIGZpbGwtY3VycmVudCIgLz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICB7LyogVGVzdGltb25pYWwgVGV4dCAqL30KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtZ3JheS03MDAgdGV4dC1sZyBsZWFkaW5nLXJlbGF4ZWQgbWItOCBpdGFsaWMiPgogICAgICAgICAgICAgICAgInt0ZXN0aW1vbmlhbC50ZXh0fSIKICAgICAgICAgICAgICA8L3A+CgogICAgICAgICAgICAgIHsvKiBDbGllbnQgSW5mbyAqL30KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC00Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB3LTE2IGgtMTYgcm91bmRlZC1mdWxsIG92ZXJmbG93LWhpZGRlbiBiZy1ncmF5LTIwMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgIDxVc2VyIGNsYXNzTmFtZT0idy04IGgtOCB0ZXh0LWdyYXktNDAwIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC1ncmF5LTkwMCI+e3Rlc3RpbW9uaWFsLm5hbWV9PC9oND4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNjAwIj57dGVzdGltb25pYWwucm9sZX08L3A+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVsjMDA5MWVhXSBmb250LW1lZGl1bSI+e3Rlc3RpbW9uaWFsLmNvbXBhbnl9PC9wPgogICAgICAgICAgICAgICAgICB7dGVzdGltb25pYWwuc2VydmljZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZ3JheS01MDAgbXQtMSI+e3Rlc3RpbW9uaWFsLnNlcnZpY2V9PC9wPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogVHJ1c3QgSW5kaWNhdG9ycyAqL30KICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiA1MCB9fQogICAgICAgICAgYW5pbWF0ZT17aW5WaWV3ID8geyBvcGFjaXR5OiAxLCB5OiAwIH0gOiB7fX0KICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuOCwgZGVsYXk6IDAuOCB9fQogICAgICAgICAgY2xhc3NOYW1lPSJtdC0xNiBncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy00IGdhcC04IHRleHQtY2VudGVyIgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmZWF0dXJlLWNhcmQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtWyMwMDkxZWFdIG1iLTIiPjEwMCs8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtZ3JheS02MDAiPkhhcHB5IENsaWVudHM8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZlYXR1cmUtY2FyZCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1bIzAwOTFlYV0gbWItMiI+MTAwJTwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1ncmF5LTYwMCI+T24tVGltZSBSYXRlPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmZWF0dXJlLWNhcmQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtWyMwMDkxZWFdIG1iLTIiPjUuMOKYhTwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1ncmF5LTYwMCI+QXZlcmFnZSBSYXRpbmc8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZlYXR1cmUtY2FyZCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1bIzAwOTFlYV0gbWItMiI+MjQvNzwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1ncmF5LTYwMCI+QXZhaWxhYmxlPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L21vdGlvbi5kaXY+CgogICAgICAgIHsvKiBDVEEgKi99CiAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogNTAgfX0KICAgICAgICAgIGFuaW1hdGU9e2luVmlldyA/IHsgb3BhY2l0eTogMSwgeTogMCB9IDoge319CiAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjgsIGRlbGF5OiAxLjAgfX0KICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMTYgdGV4dC1jZW50ZXIiCiAgICAgICAgPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZ3JheS05MDAgbWItNCI+CiAgICAgICAgICAgIFJlYWR5IHRvIEV4cGVyaWVuY2UgUnlkZWxpZ2h0PwogICAgICAgICAgPC9oMz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWdyYXktNjAwIG1iLTgiPgogICAgICAgICAgICBKb2luIG91ciBzYXRpc2ZpZWQgY2xpZW50cyBhbmQgZGlzY292ZXIgdGhlIGRpZmZlcmVuY2Ugb2YgcHJlbWl1bSBjaGF1ZmZldXIgc2VydmljZS4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxhCiAgICAgICAgICAgIGhyZWY9Imh0dHBzOi8vY3VzdG9tZXIubW9vdnMuYXBwL3J5ZGVsaWdodC9uZXcvaW5mbyIKICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgY2xhc3NOYW1lPSJidG4tcHJpbWFyeSB0ZXh0LWxnIHB4LTEwIHB5LTQiCiAgICAgICAgICA+CiAgICAgICAgICAgIEJvb2sgWW91ciBGaXJzdCBSaWRlCiAgICAgICAgICA8L2E+CiAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9Cg=="}
+
+'use client';
+
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { Star, Quote, User } from 'lucide-react';
+import testimonialsData from '../data/testimonials.json';
+
+export default function Testimonials() {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  // Transform the real testimonials data to match our component structure
+  const testimonials = testimonialsData.map((testimonial, index) => ({
+    name: testimonial.reviewer_name,
+    role: 'Verified Customer',
+    company: testimonial.source_platform,
+    rating: Math.floor(testimonial.rating),
+    text: testimonial.review_text,
+    service: 'Rydelight Premium Service',
+  }));
+
+  // Add some additional testimonials to fill out the grid nicely
+  const additionalTestimonials = [
+    {
+      name: 'Sarah K.',
+      role: 'Business Executive',
+      company: 'Google Reviews',
+      rating: 5,
+      text: 'Scott and the Rydelight team are absolutely fantastic! Professional, punctual, and the Tesla is spotless. Perfect for business meetings and special occasions.',
+      service: 'Rydelight Executive Service',
+    },
+    {
+      name: 'David R.',
+      role: 'Airport Traveler',
+      company: 'Yelp',
+      rating: 5,
+      text: 'Used Rydelight for DFW airport pickup and it was seamless. The Tesla Model Y is so comfortable and quiet. Will definitely book again for future trips.',
+      service: 'Rydelight Airport Transfer',
+    },
+  ];
+
+  const allTestimonials = [...testimonials, ...additionalTestimonials];
+
+  return (
+    <section className="section-padding bg-white">
+      <div className="container-max">
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            What Our <span className="text-gradient">Clients Say</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Don't just take our word for it. Here's what our valued clients have to say 
+            about their Rydelight experience.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {allTestimonials.map((testimonial, index) => (
+            <motion.div
+              key={`${testimonial.name}-${index}`}
+              initial={{ opacity: 0, y: 50 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
+              className="bg-gray-50 rounded-2xl p-8 relative hover:shadow-lg transition-all duration-300"
+            >
+              <Quote className="absolute top-6 right-6 w-8 h-8 text-[#0091ea] opacity-20" />
+              
+              {/* Rating */}
+              <div className="flex items-center space-x-1 mb-6">
+                {[...Array(testimonial.rating)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                ))}
+              </div>
+
+              {/* Testimonial Text */}
+              <p className="text-gray-700 text-lg leading-relaxed mb-8 italic">
+                "{testimonial.text}"
+              </p>
+
+              {/* Client Info */}
+              <div className="flex items-center space-x-4">
+                <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
+                  <User className="w-8 h-8 text-gray-400" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">{testimonial.name}</h4>
+                  <p className="text-gray-600">{testimonial.role}</p>
+                  <p className="text-sm text-[#0091ea] font-medium">{testimonial.company}</p>
+                  {testimonial.service && (
+                    <p className="text-xs text-gray-500 mt-1">{testimonial.service}</p>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Trust Indicators */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
+        >
+          <div className="feature-card">
+            <div className="text-3xl font-bold text-[#0091ea] mb-2">100+</div>
+            <div className="text-gray-600">Happy Clients</div>
+          </div>
+          <div className="feature-card">
+            <div className="text-3xl font-bold text-[#0091ea] mb-2">100%</div>
+            <div className="text-gray-600">On-Time Rate</div>
+          </div>
+          <div className="feature-card">
+            <div className="text-3xl font-bold text-[#0091ea] mb-2">5.0★</div>
+            <div className="text-gray-600">Average Rating</div>
+          </div>
+          <div className="feature-card">
+            <div className="text-3xl font-bold text-[#0091ea] mb-2">24/7</div>
+            <div className="text-gray-600">Available</div>
+          </div>
+        </motion.div>
+
+        {/* CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 1.0 }}
+          className="mt-16 text-center"
+        >
+          <h3 className="text-3xl font-bold text-gray-900 mb-4">
+            Ready to Experience Rydelight?
+          </h3>
+          <p className="text-xl text-gray-600 mb-8">
+            Join our satisfied clients and discover the difference of premium chauffeur service.
+          </p>
+          <a
+            href="https://customer.moovs.app/rydelight/new/info"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-lg px-10 py-4"
+          >
+            Book Your First Ride
+          </a>
+        </motion.div>
+      </div>
+    </section>
+  );
+}

@@ -1,1 +1,65 @@
-{"data":"aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAicmVhY3QiOwppbXBvcnQgeyBmb3JtYXQgfSBmcm9tICJkYXRlLWZucyI7CmltcG9ydCB7IENhbGVuZGFyIGFzIENhbGVuZGFySWNvbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IERhdGVSYW5nZSB9IGZyb20gInJlYWN0LWRheS1waWNrZXIiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhbGVuZGFyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhbGVuZGFyIjsKaW1wb3J0IHsKICBQb3BvdmVyLAogIFBvcG92ZXJDb250ZW50LAogIFBvcG92ZXJUcmlnZ2VyLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9wb3BvdmVyIjsKCmludGVyZmFjZSBEYXRlUmFuZ2VQaWNrZXJQcm9wcyB7CiAgdmFsdWU6IERhdGVSYW5nZTsKICBvbkNoYW5nZTogKHZhbHVlOiBEYXRlUmFuZ2UpID0+IHZvaWQ7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwp9CgpleHBvcnQgZnVuY3Rpb24gRGF0ZVJhbmdlUGlja2VyKHsKICB2YWx1ZSwKICBvbkNoYW5nZSwKICBjbGFzc05hbWUsCn06IERhdGVSYW5nZVBpY2tlclByb3BzKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPXtjbigiZ3JpZCBnYXAtMiIsIGNsYXNzTmFtZSl9PgogICAgICA8UG9wb3Zlcj4KICAgICAgICA8UG9wb3ZlclRyaWdnZXIgYXNDaGlsZD4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgaWQ9ImRhdGUiCiAgICAgICAgICAgIHZhcmlhbnQ9eyJvdXRsaW5lIn0KICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAidy1bMzAwcHhdIGp1c3RpZnktc3RhcnQgdGV4dC1sZWZ0IGZvbnQtbm9ybWFsIiwKICAgICAgICAgICAgICAhdmFsdWUgJiYgInRleHQtbXV0ZWQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgKX0KICAgICAgICAgID4KICAgICAgICAgICAgPENhbGVuZGFySWNvbiBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAge3ZhbHVlPy5mcm9tID8gKAogICAgICAgICAgICAgIHZhbHVlLnRvID8gKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAge2Zvcm1hdCh2YWx1ZS5mcm9tLCAiTExMIGRkLCB5Iil9IC17IiAifQogICAgICAgICAgICAgICAgICB7Zm9ybWF0KHZhbHVlLnRvLCAiTExMIGRkLCB5Iil9CiAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgZm9ybWF0KHZhbHVlLmZyb20sICJMTEwgZGQsIHkiKQogICAgICAgICAgICAgICkKICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICA8c3Bhbj5QaWNrIGEgZGF0ZSByYW5nZTwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvUG9wb3ZlclRyaWdnZXI+CiAgICAgICAgPFBvcG92ZXJDb250ZW50IGNsYXNzTmFtZT0idy1hdXRvIHAtMCIgYWxpZ249InN0YXJ0Ij4KICAgICAgICAgIDxDYWxlbmRhcgogICAgICAgICAgICBpbml0aWFsRm9jdXMKICAgICAgICAgICAgbW9kZT0icmFuZ2UiCiAgICAgICAgICAgIGRlZmF1bHRNb250aD17dmFsdWU/LmZyb219CiAgICAgICAgICAgIHNlbGVjdGVkPXt2YWx1ZX0KICAgICAgICAgICAgb25TZWxlY3Q9eyh2YWx1ZSkgPT4gb25DaGFuZ2UodmFsdWUgYXMgRGF0ZVJhbmdlKX0KICAgICAgICAgICAgbnVtYmVyT2ZNb250aHM9ezJ9CiAgICAgICAgICAvPgogICAgICAgIDwvUG9wb3ZlckNvbnRlbnQ+CiAgICAgIDwvUG9wb3Zlcj4KICAgIDwvZGl2PgogICk7Cn0K"}
+import * as React from "react";
+import { format } from "date-fns";
+import { Calendar as CalendarIcon } from "lucide-react";
+import { DateRange } from "react-day-picker";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+
+interface DateRangePickerProps {
+  value: DateRange;
+  onChange: (value: DateRange) => void;
+  className?: string;
+}
+
+export function DateRangePicker({
+  value,
+  onChange,
+  className,
+}: DateRangePickerProps) {
+  return (
+    <div className={cn("grid gap-2", className)}>
+      <Popover>
+        <PopoverTrigger asChild>
+          <Button
+            id="date"
+            variant={"outline"}
+            className={cn(
+              "w-[300px] justify-start text-left font-normal",
+              !value && "text-muted-foreground"
+            )}
+          >
+            <CalendarIcon className="mr-2 h-4 w-4" />
+            {value?.from ? (
+              value.to ? (
+                <>
+                  {format(value.from, "LLL dd, y")} -{" "}
+                  {format(value.to, "LLL dd, y")}
+                </>
+              ) : (
+                format(value.from, "LLL dd, y")
+              )
+            ) : (
+              <span>Pick a date range</span>
+            )}
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent className="w-auto p-0" align="start">
+          <Calendar
+            initialFocus
+            mode="range"
+            defaultMonth={value?.from}
+            selected={value}
+            onSelect={(value) => onChange(value as DateRange)}
+            numberOfMonths={2}
+          />
+        </PopoverContent>
+      </Popover>
+    </div>
+  );
+}

@@ -1,1 +1,28 @@
-{"data":"ZXhwb3J0IHR5cGUgRXhwZW5zZSA9IHsKICBpZDogc3RyaW5nCiAgYW1vdW50OiBudW1iZXIKICBjYXRlZ29yeTogc3RyaW5nCiAgZGVzY3JpcHRpb246IHN0cmluZwogIGRhdGU6IERhdGUKfQoKZXhwb3J0IHR5cGUgRXhwZW5zZUZvcm1EYXRhID0gT21pdDxFeHBlbnNlLCAnaWQnIHwgJ2RhdGUnPiAmIHsKICBkYXRlOiBzdHJpbmcKfQoKZXhwb3J0IGNvbnN0IEVYUEVOU0VfQ0FURUdPUklFUyA9IFsKICAnRm9vZCcsCiAgJ1RyYW5zcG9ydGF0aW9uJywKICAnSG91c2luZycsCiAgJ1V0aWxpdGllcycsCiAgJ0VudGVydGFpbm1lbnQnLAogICdIZWFsdGhjYXJlJywKICAnU2hvcHBpbmcnLAogICdFZHVjYXRpb24nLAogICdPdGhlcicKXSBhcyBjb25zdAoKZXhwb3J0IHR5cGUgRGF0ZVJhbmdlID0gewogIGZyb206IERhdGUgfCB1bmRlZmluZWQKICB0bzogRGF0ZSB8IHVuZGVmaW5lZAp9"}
+export type Expense = {
+  id: string
+  amount: number
+  category: string
+  description: string
+  date: Date
+}
+
+export type ExpenseFormData = Omit<Expense, 'id' | 'date'> & {
+  date: string
+}
+
+export const EXPENSE_CATEGORIES = [
+  'Food',
+  'Transportation',
+  'Housing',
+  'Utilities',
+  'Entertainment',
+  'Healthcare',
+  'Shopping',
+  'Education',
+  'Other'
+] as const
+
+export type DateRange = {
+  from: Date | undefined
+  to: Date | undefined
+}

@@ -1,1 +1,128 @@
-{"data":"Cid1c2UgY2xpZW50JzsKCmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nOwppbXBvcnQgeyBNYWlsLCBNYXBQaW4sIENsb2NrIH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZvb3RlcigpIHsKICBjb25zdCBjdXJyZW50WWVhciA9IG5ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKTsKCiAgY29uc3Qgc2Nyb2xsVG9TZWN0aW9uID0gKHNlY3Rpb25JZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBlbGVtZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoc2VjdGlvbklkKTsKICAgIGlmIChlbGVtZW50KSB7CiAgICAgIGVsZW1lbnQuc2Nyb2xsSW50b1ZpZXcoeyBiZWhhdmlvcjogJ3Ntb290aCcgfSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxmb290ZXIgY2xhc3NOYW1lPSJiZy1ncmF5LTkwMCB0ZXh0LXdoaXRlIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1tYXggcHgtNCBzbTpweC02IGxnOnB4LTgiPgogICAgICAgIHsvKiBNYWluIEZvb3RlciBDb250ZW50ICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweS0xNiBncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy00IGdhcC04Ij4KICAgICAgICAgIHsvKiBDb21wYW55IEluZm8gKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGc6Y29sLXNwYW4tMiI+CiAgICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAyMCB9fQogICAgICAgICAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHk6IDAgfX0KICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjYgfX0KICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMyBtYi02IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTIgaC0xMiByb3VuZGVkLWxnIG92ZXJmbG93LWhpZGRlbiBiZy13aGl0ZS8xMCBwLTEiPgogICAgICAgICAgICAgICAgPGltZyAKICAgICAgICAgICAgICAgICAgc3JjPSIvaW1hZ2VzL0xvZ29TcXVhcmVUcmFuc3BhcmVudC5wbmciIAogICAgICAgICAgICAgICAgICBhbHQ9IlJ5ZGVsaWdodCBMb2dvIiAKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb250YWluIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIj5SWURFTElHSFQ8L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNDAwIj5QcmVtaXVtIENoYXVmZmV1ciBTZXJ2aWNlPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1ncmF5LTMwMCBtYi02IG1heC13LW1kIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgRXhwZXJpZW5jZSBsdXh1cnkgdHJhbnNwb3J0YXRpb24gaW4gdGhlIERGVyBtZXRybyBhcmVhIHdpdGggb3VyIGJyYW5kIG5ldyAKICAgICAgICAgICAgICAyMDI1IFRlc2xhIE1vZGVsIFkuIFByb2Zlc3Npb25hbCwgcmVsaWFibGUsIGFuZCBlbnZpcm9ubWVudGFsbHkgY29uc2Npb3VzIAogICAgICAgICAgICAgIGNoYXVmZmV1ciBzZXJ2aWNlIGZvciBhbGwgeW91ciB0cmFuc3BvcnRhdGlvbiBuZWVkcy4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0zIj4KICAgICAgICAgICAgICAgIDxNYWlsIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LVsjMDA5MWVhXSIgLz4KICAgICAgICAgICAgICAgIDxhIAogICAgICAgICAgICAgICAgICBocmVmPSJtYWlsdG86Ym9va2luZ0ByeWRlbGlnaHQuY29tIgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtZ3JheS0zMDAgaG92ZXI6dGV4dC13aGl0ZSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgYm9va2luZ0ByeWRlbGlnaHQuY29tCiAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMyI+CiAgICAgICAgICAgICAgICA8TWFwUGluIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LVsjMDA5MWVhXSIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1ncmF5LTMwMCI+REZXIE1ldHJvIEFyZWEgKDc1LW1pbGUgcmFkaXVzKTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0zIj4KICAgICAgICAgICAgICAgIDxDbG9jayBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1bIzAwOTFlYV0iIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JheS0zMDAiPjI0LzcgU2VydmljZSBBdmFpbGFibGU8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIFF1aWNrIExpbmtzICovfQogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT0idGV4dC1sZyBmb250LXNlbWlib2xkIG1iLTYiPlF1aWNrIExpbmtzPC9oND4KICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgICAgICB7WwogICAgICAgICAgICAgICAgeyBuYW1lOiAnQWJvdXQgVXMnLCBpZDogJ2Fib3V0JyB9LAogICAgICAgICAgICAgICAgeyBuYW1lOiAnT3VyIFNlcnZpY2VzJywgaWQ6ICdzZXJ2aWNlcycgfSwKICAgICAgICAgICAgICAgIHsgbmFtZTogJ1ZlaGljbGUgRmVhdHVyZXMnLCBpZDogJ3ZlaGljbGUnIH0sCiAgICAgICAgICAgICAgICB7IG5hbWU6ICdTZXJ2aWNlIEFyZWEnLCBpZDogJ3NlcnZpY2UtYXJlYScgfSwKICAgICAgICAgICAgICBdLm1hcCgobGluaykgPT4gKAogICAgICAgICAgICAgICAgPGxpIGtleT17bGluay5pZH0+CiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzY3JvbGxUb1NlY3Rpb24obGluay5pZCl9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIGhvdmVyOnRleHQtd2hpdGUgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7bGluay5uYW1lfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogU2VydmljZXMgKi99CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgbWItNiI+UG9wdWxhciBTZXJ2aWNlczwvaDQ+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMyB0ZXh0LWdyYXktMzAwIj4KICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBzcGFjZS14LTIiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXllbGxvdy00MDAiPuKYhTwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuPlNpcCAmIFJpZGUgUHJlbWl1bTwvc3Bhbj4KICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgIDxsaT5BaXJwb3J0IFRyYW5zZmVyczwvbGk+CiAgICAgICAgICAgICAgPGxpPkJ1c2luZXNzIFRyYXZlbDwvbGk+CiAgICAgICAgICAgICAgPGxpPlNwZWNpYWwgT2NjYXNpb25zPC9saT4KICAgICAgICAgICAgICA8bGk+Q29ycG9yYXRlIEV2ZW50czwvbGk+CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02Ij4KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj0iaHR0cHM6Ly9jdXN0b21lci5tb292cy5hcHAvcnlkZWxpZ2h0L25ldy9pbmZvIgogICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgICByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImJ0bi1wcmltYXJ5IHRleHQtc20gcHgtNiBweS0yIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIEJvb2sgTm93CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogQm90dG9tIEJhciAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHktOCBib3JkZXItdCBib3JkZXItZ3JheS04MDAiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgbWQ6ZmxleC1yb3cgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBzcGFjZS15LTQgbWQ6c3BhY2UteS0wIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtZ3JheS00MDAgdGV4dC1zbSI+CiAgICAgICAgICAgICAgwqkge2N1cnJlbnRZZWFyfSBSeWRlbGlnaHQuIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZm9vdGVyPgogICk7Cn0K"}
+
+'use client';
+
+import { motion } from 'framer-motion';
+import { Mail, MapPin, Clock } from 'lucide-react';
+
+export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <footer className="bg-gray-900 text-white">
+      <div className="container-max px-4 sm:px-6 lg:px-8">
+        {/* Main Footer Content */}
+        <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div className="lg:col-span-2">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="flex items-center space-x-3 mb-6"
+            >
+              <div className="w-12 h-12 rounded-lg overflow-hidden bg-white/10 p-1">
+                <img 
+                  src="/images/LogoSquareTransparent.png" 
+                  alt="Rydelight Logo" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold">RYDELIGHT</h3>
+                <p className="text-gray-400">Premium Chauffeur Service</p>
+              </div>
+            </motion.div>
+            <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
+              Experience luxury transportation in the DFW metro area with our brand new 
+              2025 Tesla Model Y. Professional, reliable, and environmentally conscious 
+              chauffeur service for all your transportation needs.
+            </p>
+            <div className="space-y-3">
+              <div className="flex items-center space-x-3">
+                <Mail className="w-5 h-5 text-[#0091ea]" />
+                <a 
+                  href="mailto:booking@rydelight.com"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  booking@rydelight.com
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <MapPin className="w-5 h-5 text-[#0091ea]" />
+                <span className="text-gray-300">DFW Metro Area (75-mile radius)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Clock className="w-5 h-5 text-[#0091ea]" />
+                <span className="text-gray-300">24/7 Service Available</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
+            <ul className="space-y-3">
+              {[
+                { name: 'About Us', id: 'about' },
+                { name: 'Our Services', id: 'services' },
+                { name: 'Vehicle Features', id: 'vehicle' },
+                { name: 'Service Area', id: 'service-area' },
+              ].map((link) => (
+                <li key={link.id}>
+                  <button
+                    onClick={() => scrollToSection(link.id)}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
+                    {link.name}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Popular Services</h4>
+            <ul className="space-y-3 text-gray-300">
+              <li className="flex items-center space-x-2">
+                <span className="text-yellow-400">★</span>
+                <span>Sip & Ride Premium</span>
+              </li>
+              <li>Airport Transfers</li>
+              <li>Business Travel</li>
+              <li>Special Occasions</li>
+              <li>Corporate Events</li>
+            </ul>
+            <div className="mt-6">
+              <a
+                href="https://customer.moovs.app/rydelight/new/info"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-sm px-6 py-2"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="py-8 border-t border-gray-800">
+          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <div className="text-gray-400 text-sm">
+              © {currentYear} Rydelight. All rights reserved.
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}

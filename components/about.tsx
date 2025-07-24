@@ -1,1 +1,133 @@
-{"data":"Cid1c2UgY2xpZW50JzsKCmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nOwppbXBvcnQgeyB1c2VJblZpZXcgfSBmcm9tICdyZWFjdC1pbnRlcnNlY3Rpb24tb2JzZXJ2ZXInOwppbXBvcnQgeyBBd2FyZCwgVXNlcnMsIENsb2NrLCBTaGllbGQgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwppbXBvcnQgSW1hZ2UgZnJvbSAnbmV4dC9pbWFnZSc7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBYm91dCgpIHsKICBjb25zdCBbcmVmLCBpblZpZXddID0gdXNlSW5WaWV3KHsKICAgIHRyaWdnZXJPbmNlOiB0cnVlLAogICAgdGhyZXNob2xkOiAwLjEsCiAgfSk7CgogIGNvbnN0IHN0YXRzID0gWwogICAgeyBudW1iZXI6ICcxMDAlJywgbGFiZWw6ICdPbi1UaW1lIEFycml2YWxzJywgaWNvbjogQ2xvY2sgfSwKICAgIHsgbnVtYmVyOiAnMTAwKycsIGxhYmVsOiAnSGFwcHkgQ2xpZW50cycsIGljb246IFVzZXJzIH0sCiAgICB7IG51bWJlcjogJzXimIUnLCBsYWJlbDogJ0F2ZXJhZ2UgUmF0aW5nJywgaWNvbjogQXdhcmQgfSwKICAgIHsgbnVtYmVyOiAnMjQvNycsIGxhYmVsOiAnQXZhaWxhYmxlIFNlcnZpY2UnLCBpY29uOiBTaGllbGQgfSwKICBdOwoKICByZXR1cm4gKAogICAgPHNlY3Rpb24gaWQ9ImFib3V0IiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy1ncmF5LTUwIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1tYXgiPgogICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICByZWY9e3JlZn0KICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogNTAgfX0KICAgICAgICAgIGFuaW1hdGU9e2luVmlldyA/IHsgb3BhY2l0eTogMSwgeTogMCB9IDoge319CiAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjggfX0KICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiCiAgICAgICAgPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC00eGwgbWQ6dGV4dC01eGwgZm9udC1ib2xkIHRleHQtZ3JheS05MDAgbWItNiI+CiAgICAgICAgICAgIEFib3V0IDxzcGFuIGNsYXNzTmFtZT0idGV4dC1ncmFkaWVudCI+UnlkZWxpZ2h0PC9zcGFuPgogICAgICAgICAgPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWdyYXktNjAwIG1heC13LTN4bCBteC1hdXRvIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgIFlvdXIgdHJ1c3RlZCBjaGF1ZmZldXIgc2VydmljZSBpbiB0aGUgREZXIG1ldHJvIGFyZWEsIHByb3ZpZGluZyBwcmVtaXVtIHRyYW5zcG9ydGF0aW9uIAogICAgICAgICAgICB3aXRoIG91ciBicmFuZCBuZXcgMjAyNSBUZXNsYSBNb2RlbCBZLgogICAgICAgICAgPC9wPgogICAgICAgIDwvbW90aW9uLmRpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbGc6Z3JpZC1jb2xzLTIgZ2FwLTE2IGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICB7LyogQ29udGVudCAqL30KICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeDogLTUwIH19CiAgICAgICAgICAgIGFuaW1hdGU9e2luVmlldyA/IHsgb3BhY2l0eTogMSwgeDogMCB9IDoge319CiAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuOCwgZGVsYXk6IDAuMiB9fQogICAgICAgICAgPgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBtYi02Ij4KICAgICAgICAgICAgICBQcm9mZXNzaW9uYWwsIFJlbGlhYmxlLCBMdXh1cmlvdXMKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiB0ZXh0LWdyYXktNjAwIHRleHQtbGcgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgIEFzIGFuIG93bmVyLW9wZXJhdGVkIGNoYXVmZmV1ciBzZXJ2aWNlLCBJIHBlcnNvbmFsbHkgZW5zdXJlIGV2ZXJ5IHJpZGUgbWVldHMgCiAgICAgICAgICAgICAgICB0aGUgaGlnaGVzdCBzdGFuZGFyZHMgb2YgY29tZm9ydCwgc2FmZXR5LCBhbmQgcHJvZmVzc2lvbmFsaXNtLiBXaGV0aGVyIHlvdSdyZSAKICAgICAgICAgICAgICAgIGEgYnVzaW5lc3MgZXhlY3V0aXZlIG5lZWRpbmcgcmVsaWFibGUgYWlycG9ydCB0cmFuc3BvcnRhdGlvbiBvciBzb21lb25lIHJlcXVpcmluZyAKICAgICAgICAgICAgICAgIGFzc2lzdGFuY2Ugd2l0aCBtb2JpbGl0eSBhbmQgZXJyYW5kcywgSSdtIGhlcmUgdG8gc2VydmUgeW91LgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgIE15IDIwMjUgVGVzbGEgTW9kZWwgWSBvZmZlcnMgdGhlIHBlcmZlY3QgY29tYmluYXRpb24gb2YgbHV4dXJ5LCB0ZWNobm9sb2d5LCAKICAgICAgICAgICAgICAgIGFuZCBlbnZpcm9ubWVudGFsIGNvbnNjaW91c25lc3MuIFdpdGggaXRzIHNwYWNpb3VzIGludGVyaW9yLCBhZHZhbmNlZCBzYWZldHkgCiAgICAgICAgICAgICAgICBmZWF0dXJlcywgYW5kIHdoaXNwZXItcXVpZXQgb3BlcmF0aW9uLCBldmVyeSBqb3VybmV5IGJlY29tZXMgYSBwcmVtaXVtIGV4cGVyaWVuY2UuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgICAgU2VydmluZyB0aGUgZ3JlYXRlciBERlcgbWV0cm8gYXJlYSB3aXRoaW4gNzUgbWlsZXMsIEkgc3BlY2lhbGl6ZSBpbiBhaXJwb3J0IAogICAgICAgICAgICAgICAgdHJhbnNmZXJzIHdoaWxlIGFsc28gcHJvdmlkaW5nIHRyYW5zcG9ydGF0aW9uIGZvciBzcGVjaWFsIG9jY2FzaW9ucywgY29ycG9yYXRlIAogICAgICAgICAgICAgICAgZXZlbnRzLCBhbmQgZGFpbHkgYXNzaXN0YW5jZSBuZWVkcy4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTgiPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICBocmVmPSJodHRwczovL2N1c3RvbWVyLm1vb3ZzLmFwcC9yeWRlbGlnaHQvbmV3L2luZm8iCiAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYnRuLXByaW1hcnkgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMiIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3Bhbj5FeHBlcmllbmNlIHRoZSBEaWZmZXJlbmNlPC9zcGFuPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L21vdGlvbi5kaXY+CgogICAgICAgICAgey8qIEltYWdlICovfQogICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB4OiA1MCB9fQogICAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHg6IDAgfSA6IHt9fQogICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjgsIGRlbGF5OiAwLjQgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGFzcGVjdC1bNC8zXSByb3VuZGVkLTJ4bCBvdmVyZmxvdy1oaWRkZW4gc2hhZG93LTJ4bCI+CiAgICAgICAgICAgICAgPEltYWdlCiAgICAgICAgICAgICAgICBzcmM9Imh0dHBzOi8vYXpsaW1vLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wMS9XaGF0LW1ha2VzLWEtZ3JlYXQtY2hhdWZmZXVyLmpwZyIKICAgICAgICAgICAgICAgIGFsdD0iUHJvZmVzc2lvbmFsIGNoYXVmZmV1ciB3aXRoIFRlc2xhIE1vZGVsIFkiCiAgICAgICAgICAgICAgICBmaWxsCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im9iamVjdC1jb3ZlciIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1ib3R0b20tNiAtcmlnaHQtNiBiZy1bIzAwOTFlYV0gdGV4dC13aGl0ZSBwLTYgcm91bmRlZC14bCBzaGFkb3ctbGciPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIj4yMDI1PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSI+VGVzbGEgTW9kZWwgWTwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFN0YXRzICovfQogICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDUwIH19CiAgICAgICAgICBhbmltYXRlPXtpblZpZXcgPyB7IG9wYWNpdHk6IDEsIHk6IDAgfSA6IHt9fQogICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBkZWxheTogMC42IH19CiAgICAgICAgICBjbGFzc05hbWU9Im10LTIwIGdyaWQgZ3JpZC1jb2xzLTIgbWQ6Z3JpZC1jb2xzLTQgZ2FwLTgiCiAgICAgICAgPgogICAgICAgICAge3N0YXRzLm1hcCgoc3RhdCwgaW5kZXgpID0+ICgKICAgICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgICBrZXk9e3N0YXQubGFiZWx9CiAgICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAzMCB9fQogICAgICAgICAgICAgIGFuaW1hdGU9e2luVmlldyA/IHsgb3BhY2l0eTogMSwgeTogMCB9IDoge319CiAgICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC42LCBkZWxheTogMC44ICsgaW5kZXggKiAwLjEgfX0KICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtY2VudGVyIGZlYXR1cmUtY2FyZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTE2IGgtMTYgYmctWyMwMDkxZWFdIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBteC1hdXRvIG1iLTQiPgogICAgICAgICAgICAgICAgPHN0YXQuaWNvbiBjbGFzc05hbWU9InctOCBoLTggdGV4dC13aGl0ZSIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZ3JheS05MDAgbWItMiBhbmltYXRlLWNvdW50LXVwIj4KICAgICAgICAgICAgICAgIHtzdGF0Lm51bWJlcn0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1ncmF5LTYwMCBmb250LW1lZGl1bSI+e3N0YXQubGFiZWx9PC9kaXY+CiAgICAgICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgICAgICkpfQogICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo="}
+'use client';
+
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { Award, Users, Clock, Shield } from 'lucide-react';
+import Image from 'next/image';
+
+export default function About() {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  const stats = [
+    { number: '100%', label: 'On-Time Arrivals', icon: Clock },
+    { number: '100+', label: 'Happy Clients', icon: Users },
+    { number: '5★', label: 'Average Rating', icon: Award },
+    { number: '24/7', label: 'Available Service', icon: Shield },
+  ];
+
+  return (
+    <section id="about" className="section-padding bg-gray-50">
+      <div className="container-max">
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            About <span className="text-gradient">Rydelight</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Your trusted chauffeur service in the DFW metro area, providing premium transportation 
+            with our brand new 2025 Tesla Model Y.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          {/* Content */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <h3 className="text-3xl font-bold text-gray-900 mb-6">
+              Professional, Reliable, Luxurious
+            </h3>
+            <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+              <p>
+                As an owner-operated chauffeur service, I personally ensure every ride meets 
+                the highest standards of comfort, safety, and professionalism. Whether you're 
+                a business executive needing reliable airport transportation or someone requiring 
+                assistance with mobility and errands, I'm here to serve you.
+              </p>
+              <p>
+                My 2025 Tesla Model Y offers the perfect combination of luxury, technology, 
+                and environmental consciousness. With its spacious interior, advanced safety 
+                features, and whisper-quiet operation, every journey becomes a premium experience.
+              </p>
+              <p>
+                Serving the greater DFW metro area within 75 miles, I specialize in airport 
+                transfers while also providing transportation for special occasions, corporate 
+                events, and daily assistance needs.
+              </p>
+            </div>
+
+            <div className="mt-8">
+              <a
+                href="https://customer.moovs.app/rydelight/new/info"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex items-center space-x-2"
+              >
+                <span>Experience the Difference</span>
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Image */}
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="relative"
+          >
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="https://azlimo.com/wp-content/uploads/2021/01/What-makes-a-great-chauffeur.jpg"
+                alt="Professional chauffeur with Tesla Model Y"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="absolute -bottom-6 -right-6 bg-[#0091ea] text-white p-6 rounded-xl shadow-lg">
+              <div className="text-center">
+                <div className="text-2xl font-bold">2025</div>
+                <div className="text-sm">Tesla Model Y</div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Stats */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
+        >
+          {stats.map((stat, index) => (
+            <motion.div
+              key={stat.label}
+              initial={{ opacity: 0, y: 30 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
+              className="text-center feature-card"
+            >
+              <div className="w-16 h-16 bg-[#0091ea] rounded-full flex items-center justify-center mx-auto mb-4">
+                <stat.icon className="w-8 h-8 text-white" />
+              </div>
+              <div className="text-3xl font-bold text-gray-900 mb-2 animate-count-up">
+                {stat.number}
+              </div>
+              <div className="text-gray-600 font-medium">{stat.label}</div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
+}

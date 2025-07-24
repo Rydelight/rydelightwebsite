@@ -1,1 +1,24 @@
-{"data":"aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwoKaW1wb3J0IHsgY24gfSBmcm9tICdAL2xpYi91dGlscyc7CgpleHBvcnQgaW50ZXJmYWNlIFRleHRhcmVhUHJvcHMKICBleHRlbmRzIFJlYWN0LlRleHRhcmVhSFRNTEF0dHJpYnV0ZXM8SFRNTFRleHRBcmVhRWxlbWVudD4ge30KCmNvbnN0IFRleHRhcmVhID0gUmVhY3QuZm9yd2FyZFJlZjxIVE1MVGV4dEFyZWFFbGVtZW50LCBUZXh0YXJlYVByb3BzPigKICAoeyBjbGFzc05hbWUsIC4uLnByb3BzIH0sIHJlZikgPT4gewogICAgcmV0dXJuICgKICAgICAgPHRleHRhcmVhCiAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICdmbGV4IG1pbi1oLVs4MHB4XSB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyBweS0yIHRleHQtc20gcmluZy1vZmZzZXQtYmFja2dyb3VuZCBwbGFjZWhvbGRlcjp0ZXh0LW11dGVkLWZvcmVncm91bmQgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0yIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwJywKICAgICAgICAgIGNsYXNzTmFtZQogICAgICAgICl9CiAgICAgICAgcmVmPXtyZWZ9CiAgICAgICAgey4uLnByb3BzfQogICAgICAvPgogICAgKTsKICB9Cik7ClRleHRhcmVhLmRpc3BsYXlOYW1lID0gJ1RleHRhcmVhJzsKCmV4cG9ydCB7IFRleHRhcmVhIH07Cg=="}
+import * as React from 'react';
+
+import { cn } from '@/lib/utils';
+
+export interface TextareaProps
+  extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {}
+
+const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
+  ({ className, ...props }, ref) => {
+    return (
+      <textarea
+        className={cn(
+          'flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
+          className
+        )}
+        ref={ref}
+        {...props}
+      />
+    );
+  }
+);
+Textarea.displayName = 'Textarea';
+
+export { Textarea };

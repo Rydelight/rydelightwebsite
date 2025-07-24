@@ -1,1 +1,45 @@
-{"data":"J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgR3JpcFZlcnRpY2FsIH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKaW1wb3J0ICogYXMgUmVzaXphYmxlUHJpbWl0aXZlIGZyb20gJ3JlYWN0LXJlc2l6YWJsZS1wYW5lbHMnOwoKaW1wb3J0IHsgY24gfSBmcm9tICdAL2xpYi91dGlscyc7Cgpjb25zdCBSZXNpemFibGVQYW5lbEdyb3VwID0gKHsKICBjbGFzc05hbWUsCiAgLi4ucHJvcHMKfTogUmVhY3QuQ29tcG9uZW50UHJvcHM8dHlwZW9mIFJlc2l6YWJsZVByaW1pdGl2ZS5QYW5lbEdyb3VwPikgPT4gKAogIDxSZXNpemFibGVQcmltaXRpdmUuUGFuZWxHcm91cAogICAgY2xhc3NOYW1lPXtjbigKICAgICAgJ2ZsZXggaC1mdWxsIHctZnVsbCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmZsZXgtY29sJywKICAgICAgY2xhc3NOYW1lCiAgICApfQogICAgey4uLnByb3BzfQogIC8+Cik7Cgpjb25zdCBSZXNpemFibGVQYW5lbCA9IFJlc2l6YWJsZVByaW1pdGl2ZS5QYW5lbDsKCmNvbnN0IFJlc2l6YWJsZUhhbmRsZSA9ICh7CiAgd2l0aEhhbmRsZSwKICBjbGFzc05hbWUsCiAgLi4ucHJvcHMKfTogUmVhY3QuQ29tcG9uZW50UHJvcHM8dHlwZW9mIFJlc2l6YWJsZVByaW1pdGl2ZS5QYW5lbFJlc2l6ZUhhbmRsZT4gJiB7CiAgd2l0aEhhbmRsZT86IGJvb2xlYW47Cn0pID0+ICgKICA8UmVzaXphYmxlUHJpbWl0aXZlLlBhbmVsUmVzaXplSGFuZGxlCiAgICBjbGFzc05hbWU9e2NuKAogICAgICAncmVsYXRpdmUgZmxleCB3LXB4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1ib3JkZXIgYWZ0ZXI6YWJzb2x1dGUgYWZ0ZXI6aW5zZXQteS0wIGFmdGVyOmxlZnQtMS8yIGFmdGVyOnctMSBhZnRlcjotdHJhbnNsYXRlLXgtMS8yIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0xIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMSBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmgtcHggZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTp3LWZ1bGwgZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTphZnRlcjpsZWZ0LTAgZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTphZnRlcjpoLTEgZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTphZnRlcjp3LWZ1bGwgZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTphZnRlcjotdHJhbnNsYXRlLXktMS8yIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06YWZ0ZXI6dHJhbnNsYXRlLXgtMCBbJltkYXRhLXBhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF0+ZGl2XTpyb3RhdGUtOTAnLAogICAgICBjbGFzc05hbWUKICAgICl9CiAgICB7Li4ucHJvcHN9CiAgPgogICAge3dpdGhIYW5kbGUgJiYgKAogICAgICA8ZGl2IGNsYXNzTmFtZT0iei0xMCBmbGV4IGgtNCB3LTMgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtc20gYm9yZGVyIGJnLWJvcmRlciI+CiAgICAgICAgPEdyaXBWZXJ0aWNhbCBjbGFzc05hbWU9ImgtMi41IHctMi41IiAvPgogICAgICA8L2Rpdj4KICAgICl9CiAgPC9SZXNpemFibGVQcmltaXRpdmUuUGFuZWxSZXNpemVIYW5kbGU+Cik7CgpleHBvcnQgeyBSZXNpemFibGVQYW5lbEdyb3VwLCBSZXNpemFibGVQYW5lbCwgUmVzaXphYmxlSGFuZGxlIH07Cg=="}
+'use client';
+
+import { GripVertical } from 'lucide-react';
+import * as ResizablePrimitive from 'react-resizable-panels';
+
+import { cn } from '@/lib/utils';
+
+const ResizablePanelGroup = ({
+  className,
+  ...props
+}: React.ComponentProps<typeof ResizablePrimitive.PanelGroup>) => (
+  <ResizablePrimitive.PanelGroup
+    className={cn(
+      'flex h-full w-full data-[panel-group-direction=vertical]:flex-col',
+      className
+    )}
+    {...props}
+  />
+);
+
+const ResizablePanel = ResizablePrimitive.Panel;
+
+const ResizableHandle = ({
+  withHandle,
+  className,
+  ...props
+}: React.ComponentProps<typeof ResizablePrimitive.PanelResizeHandle> & {
+  withHandle?: boolean;
+}) => (
+  <ResizablePrimitive.PanelResizeHandle
+    className={cn(
+      'relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 data-[panel-group-direction=vertical]:h-px data-[panel-group-direction=vertical]:w-full data-[panel-group-direction=vertical]:after:left-0 data-[panel-group-direction=vertical]:after:h-1 data-[panel-group-direction=vertical]:after:w-full data-[panel-group-direction=vertical]:after:-translate-y-1/2 data-[panel-group-direction=vertical]:after:translate-x-0 [&[data-panel-group-direction=vertical]>div]:rotate-90',
+      className
+    )}
+    {...props}
+  >
+    {withHandle && (
+      <div className="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border">
+        <GripVertical className="h-2.5 w-2.5" />
+      </div>
+    )}
+  </ResizablePrimitive.PanelResizeHandle>
+);
+
+export { ResizablePanelGroup, ResizablePanel, ResizableHandle };

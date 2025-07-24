@@ -1,1 +1,191 @@
-{"data":"J3VzZSBjbGllbnQnOwoKLy8gSW5zcGlyZWQgYnkgcmVhY3QtaG90LXRvYXN0IGxpYnJhcnkKaW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwoKaW1wb3J0IHR5cGUgeyBUb2FzdEFjdGlvbkVsZW1lbnQsIFRvYXN0UHJvcHMgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvdG9hc3QnOwoKY29uc3QgVE9BU1RfTElNSVQgPSAxOwpjb25zdCBUT0FTVF9SRU1PVkVfREVMQVkgPSAxMDAwMDAwOwoKdHlwZSBUb2FzdGVyVG9hc3QgPSBUb2FzdFByb3BzICYgewogIGlkOiBzdHJpbmc7CiAgdGl0bGU/OiBSZWFjdC5SZWFjdE5vZGU7CiAgZGVzY3JpcHRpb24/OiBSZWFjdC5SZWFjdE5vZGU7CiAgYWN0aW9uPzogVG9hc3RBY3Rpb25FbGVtZW50Owp9OwoKY29uc3QgYWN0aW9uVHlwZXMgPSB7CiAgQUREX1RPQVNUOiAnQUREX1RPQVNUJywKICBVUERBVEVfVE9BU1Q6ICdVUERBVEVfVE9BU1QnLAogIERJU01JU1NfVE9BU1Q6ICdESVNNSVNTX1RPQVNUJywKICBSRU1PVkVfVE9BU1Q6ICdSRU1PVkVfVE9BU1QnLAp9IGFzIGNvbnN0OwoKbGV0IGNvdW50ID0gMDsKCmZ1bmN0aW9uIGdlbklkKCkgewogIGNvdW50ID0gKGNvdW50ICsgMSkgJSBOdW1iZXIuTUFYX1NBRkVfSU5URUdFUjsKICByZXR1cm4gY291bnQudG9TdHJpbmcoKTsKfQoKdHlwZSBBY3Rpb25UeXBlID0gdHlwZW9mIGFjdGlvblR5cGVzOwoKdHlwZSBBY3Rpb24gPQogIHwgewogICAgICB0eXBlOiBBY3Rpb25UeXBlWydBRERfVE9BU1QnXTsKICAgICAgdG9hc3Q6IFRvYXN0ZXJUb2FzdDsKICAgIH0KICB8IHsKICAgICAgdHlwZTogQWN0aW9uVHlwZVsnVVBEQVRFX1RPQVNUJ107CiAgICAgIHRvYXN0OiBQYXJ0aWFsPFRvYXN0ZXJUb2FzdD47CiAgICB9CiAgfCB7CiAgICAgIHR5cGU6IEFjdGlvblR5cGVbJ0RJU01JU1NfVE9BU1QnXTsKICAgICAgdG9hc3RJZD86IFRvYXN0ZXJUb2FzdFsnaWQnXTsKICAgIH0KICB8IHsKICAgICAgdHlwZTogQWN0aW9uVHlwZVsnUkVNT1ZFX1RPQVNUJ107CiAgICAgIHRvYXN0SWQ/OiBUb2FzdGVyVG9hc3RbJ2lkJ107CiAgICB9OwoKaW50ZXJmYWNlIFN0YXRlIHsKICB0b2FzdHM6IFRvYXN0ZXJUb2FzdFtdOwp9Cgpjb25zdCB0b2FzdFRpbWVvdXRzID0gbmV3IE1hcDxzdHJpbmcsIFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+PigpOwoKY29uc3QgYWRkVG9SZW1vdmVRdWV1ZSA9ICh0b2FzdElkOiBzdHJpbmcpID0+IHsKICBpZiAodG9hc3RUaW1lb3V0cy5oYXModG9hc3RJZCkpIHsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IHRpbWVvdXQgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgIHRvYXN0VGltZW91dHMuZGVsZXRlKHRvYXN0SWQpOwogICAgZGlzcGF0Y2goewogICAgICB0eXBlOiAnUkVNT1ZFX1RPQVNUJywKICAgICAgdG9hc3RJZDogdG9hc3RJZCwKICAgIH0pOwogIH0sIFRPQVNUX1JFTU9WRV9ERUxBWSk7CgogIHRvYXN0VGltZW91dHMuc2V0KHRvYXN0SWQsIHRpbWVvdXQpOwp9OwoKZXhwb3J0IGNvbnN0IHJlZHVjZXIgPSAoc3RhdGU6IFN0YXRlLCBhY3Rpb246IEFjdGlvbik6IFN0YXRlID0+IHsKICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7CiAgICBjYXNlICdBRERfVE9BU1QnOgogICAgICByZXR1cm4gewogICAgICAgIC4uLnN0YXRlLAogICAgICAgIHRvYXN0czogW2FjdGlvbi50b2FzdCwgLi4uc3RhdGUudG9hc3RzXS5zbGljZSgwLCBUT0FTVF9MSU1JVCksCiAgICAgIH07CgogICAgY2FzZSAnVVBEQVRFX1RPQVNUJzoKICAgICAgcmV0dXJuIHsKICAgICAgICAuLi5zdGF0ZSwKICAgICAgICB0b2FzdHM6IHN0YXRlLnRvYXN0cy5tYXAoKHQpID0+CiAgICAgICAgICB0LmlkID09PSBhY3Rpb24udG9hc3QuaWQgPyB7IC4uLnQsIC4uLmFjdGlvbi50b2FzdCB9IDogdAogICAgICAgICksCiAgICAgIH07CgogICAgY2FzZSAnRElTTUlTU19UT0FTVCc6IHsKICAgICAgY29uc3QgeyB0b2FzdElkIH0gPSBhY3Rpb247CgogICAgICAvLyAhIFNpZGUgZWZmZWN0cyAhIC0gVGhpcyBjb3VsZCBiZSBleHRyYWN0ZWQgaW50byBhIGRpc21pc3NUb2FzdCgpIGFjdGlvbiwKICAgICAgLy8gYnV0IEknbGwga2VlcCBpdCBoZXJlIGZvciBzaW1wbGljaXR5CiAgICAgIGlmICh0b2FzdElkKSB7CiAgICAgICAgYWRkVG9SZW1vdmVRdWV1ZSh0b2FzdElkKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBzdGF0ZS50b2FzdHMuZm9yRWFjaCgodG9hc3QpID0+IHsKICAgICAgICAgIGFkZFRvUmVtb3ZlUXVldWUodG9hc3QuaWQpOwogICAgICAgIH0pOwogICAgICB9CgogICAgICByZXR1cm4gewogICAgICAgIC4uLnN0YXRlLAogICAgICAgIHRvYXN0czogc3RhdGUudG9hc3RzLm1hcCgodCkgPT4KICAgICAgICAgIHQuaWQgPT09IHRvYXN0SWQgfHwgdG9hc3RJZCA9PT0gdW5kZWZpbmVkCiAgICAgICAgICAgID8gewogICAgICAgICAgICAgICAgLi4udCwKICAgICAgICAgICAgICAgIG9wZW46IGZhbHNlLAogICAgICAgICAgICAgIH0KICAgICAgICAgICAgOiB0CiAgICAgICAgKSwKICAgICAgfTsKICAgIH0KICAgIGNhc2UgJ1JFTU9WRV9UT0FTVCc6CiAgICAgIGlmIChhY3Rpb24udG9hc3RJZCA9PT0gdW5kZWZpbmVkKSB7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIC4uLnN0YXRlLAogICAgICAgICAgdG9hc3RzOiBbXSwKICAgICAgICB9OwogICAgICB9CiAgICAgIHJldHVybiB7CiAgICAgICAgLi4uc3RhdGUsCiAgICAgICAgdG9hc3RzOiBzdGF0ZS50b2FzdHMuZmlsdGVyKCh0KSA9PiB0LmlkICE9PSBhY3Rpb24udG9hc3RJZCksCiAgICAgIH07CiAgfQp9OwoKY29uc3QgbGlzdGVuZXJzOiBBcnJheTwoc3RhdGU6IFN0YXRlKSA9PiB2b2lkPiA9IFtdOwoKbGV0IG1lbW9yeVN0YXRlOiBTdGF0ZSA9IHsgdG9hc3RzOiBbXSB9OwoKZnVuY3Rpb24gZGlzcGF0Y2goYWN0aW9uOiBBY3Rpb24pIHsKICBtZW1vcnlTdGF0ZSA9IHJlZHVjZXIobWVtb3J5U3RhdGUsIGFjdGlvbik7CiAgbGlzdGVuZXJzLmZvckVhY2goKGxpc3RlbmVyKSA9PiB7CiAgICBsaXN0ZW5lcihtZW1vcnlTdGF0ZSk7CiAgfSk7Cn0KCnR5cGUgVG9hc3QgPSBPbWl0PFRvYXN0ZXJUb2FzdCwgJ2lkJz47CgpmdW5jdGlvbiB0b2FzdCh7IC4uLnByb3BzIH06IFRvYXN0KSB7CiAgY29uc3QgaWQgPSBnZW5JZCgpOwoKICBjb25zdCB1cGRhdGUgPSAocHJvcHM6IFRvYXN0ZXJUb2FzdCkgPT4KICAgIGRpc3BhdGNoKHsKICAgICAgdHlwZTogJ1VQREFURV9UT0FTVCcsCiAgICAgIHRvYXN0OiB7IC4uLnByb3BzLCBpZCB9LAogICAgfSk7CiAgY29uc3QgZGlzbWlzcyA9ICgpID0+IGRpc3BhdGNoKHsgdHlwZTogJ0RJU01JU1NfVE9BU1QnLCB0b2FzdElkOiBpZCB9KTsKCiAgZGlzcGF0Y2goewogICAgdHlwZTogJ0FERF9UT0FTVCcsCiAgICB0b2FzdDogewogICAgICAuLi5wcm9wcywKICAgICAgaWQsCiAgICAgIG9wZW46IHRydWUsCiAgICAgIG9uT3BlbkNoYW5nZTogKG9wZW4pID0+IHsKICAgICAgICBpZiAoIW9wZW4pIGRpc21pc3MoKTsKICAgICAgfSwKICAgIH0sCiAgfSk7CgogIHJldHVybiB7CiAgICBpZDogaWQsCiAgICBkaXNtaXNzLAogICAgdXBkYXRlLAogIH07Cn0KCmZ1bmN0aW9uIHVzZVRvYXN0KCkgewogIGNvbnN0IFtzdGF0ZSwgc2V0U3RhdGVdID0gUmVhY3QudXNlU3RhdGU8U3RhdGU+KG1lbW9yeVN0YXRlKTsKCiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgIGxpc3RlbmVycy5wdXNoKHNldFN0YXRlKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGNvbnN0IGluZGV4ID0gbGlzdGVuZXJzLmluZGV4T2Yoc2V0U3RhdGUpOwogICAgICBpZiAoaW5kZXggPiAtMSkgewogICAgICAgIGxpc3RlbmVycy5zcGxpY2UoaW5kZXgsIDEpOwogICAgICB9CiAgICB9OwogIH0sIFtzdGF0ZV0pOwoKICByZXR1cm4gewogICAgLi4uc3RhdGUsCiAgICB0b2FzdCwKICAgIGRpc21pc3M6ICh0b2FzdElkPzogc3RyaW5nKSA9PiBkaXNwYXRjaCh7IHR5cGU6ICdESVNNSVNTX1RPQVNUJywgdG9hc3RJZCB9KSwKICB9Owp9CgpleHBvcnQgeyB1c2VUb2FzdCwgdG9hc3QgfTsK"}
+'use client';
+
+// Inspired by react-hot-toast library
+import * as React from 'react';
+
+import type { ToastActionElement, ToastProps } from '@/components/ui/toast';
+
+const TOAST_LIMIT = 1;
+const TOAST_REMOVE_DELAY = 1000000;
+
+type ToasterToast = ToastProps & {
+  id: string;
+  title?: React.ReactNode;
+  description?: React.ReactNode;
+  action?: ToastActionElement;
+};
+
+const actionTypes = {
+  ADD_TOAST: 'ADD_TOAST',
+  UPDATE_TOAST: 'UPDATE_TOAST',
+  DISMISS_TOAST: 'DISMISS_TOAST',
+  REMOVE_TOAST: 'REMOVE_TOAST',
+} as const;
+
+let count = 0;
+
+function genId() {
+  count = (count + 1) % Number.MAX_SAFE_INTEGER;
+  return count.toString();
+}
+
+type ActionType = typeof actionTypes;
+
+type Action =
+  | {
+      type: ActionType['ADD_TOAST'];
+      toast: ToasterToast;
+    }
+  | {
+      type: ActionType['UPDATE_TOAST'];
+      toast: Partial<ToasterToast>;
+    }
+  | {
+      type: ActionType['DISMISS_TOAST'];
+      toastId?: ToasterToast['id'];
+    }
+  | {
+      type: ActionType['REMOVE_TOAST'];
+      toastId?: ToasterToast['id'];
+    };
+
+interface State {
+  toasts: ToasterToast[];
+}
+
+const toastTimeouts = new Map<string, ReturnType<typeof setTimeout>>();
+
+const addToRemoveQueue = (toastId: string) => {
+  if (toastTimeouts.has(toastId)) {
+    return;
+  }
+
+  const timeout = setTimeout(() => {
+    toastTimeouts.delete(toastId);
+    dispatch({
+      type: 'REMOVE_TOAST',
+      toastId: toastId,
+    });
+  }, TOAST_REMOVE_DELAY);
+
+  toastTimeouts.set(toastId, timeout);
+};
+
+export const reducer = (state: State, action: Action): State => {
+  switch (action.type) {
+    case 'ADD_TOAST':
+      return {
+        ...state,
+        toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT),
+      };
+
+    case 'UPDATE_TOAST':
+      return {
+        ...state,
+        toasts: state.toasts.map((t) =>
+          t.id === action.toast.id ? { ...t, ...action.toast } : t
+        ),
+      };
+
+    case 'DISMISS_TOAST': {
+      const { toastId } = action;
+
+      // ! Side effects ! - This could be extracted into a dismissToast() action,
+      // but I'll keep it here for simplicity
+      if (toastId) {
+        addToRemoveQueue(toastId);
+      } else {
+        state.toasts.forEach((toast) => {
+          addToRemoveQueue(toast.id);
+        });
+      }
+
+      return {
+        ...state,
+        toasts: state.toasts.map((t) =>
+          t.id === toastId || toastId === undefined
+            ? {
+                ...t,
+                open: false,
+              }
+            : t
+        ),
+      };
+    }
+    case 'REMOVE_TOAST':
+      if (action.toastId === undefined) {
+        return {
+          ...state,
+          toasts: [],
+        };
+      }
+      return {
+        ...state,
+        toasts: state.toasts.filter((t) => t.id !== action.toastId),
+      };
+  }
+};
+
+const listeners: Array<(state: State) => void> = [];
+
+let memoryState: State = { toasts: [] };
+
+function dispatch(action: Action) {
+  memoryState = reducer(memoryState, action);
+  listeners.forEach((listener) => {
+    listener(memoryState);
+  });
+}
+
+type Toast = Omit<ToasterToast, 'id'>;
+
+function toast({ ...props }: Toast) {
+  const id = genId();
+
+  const update = (props: ToasterToast) =>
+    dispatch({
+      type: 'UPDATE_TOAST',
+      toast: { ...props, id },
+    });
+  const dismiss = () => dispatch({ type: 'DISMISS_TOAST', toastId: id });
+
+  dispatch({
+    type: 'ADD_TOAST',
+    toast: {
+      ...props,
+      id,
+      open: true,
+      onOpenChange: (open) => {
+        if (!open) dismiss();
+      },
+    },
+  });
+
+  return {
+    id: id,
+    dismiss,
+    update,
+  };
+}
+
+function useToast() {
+  const [state, setState] = React.useState<State>(memoryState);
+
+  React.useEffect(() => {
+    listeners.push(setState);
+    return () => {
+      const index = listeners.indexOf(setState);
+      if (index > -1) {
+        listeners.splice(index, 1);
+      }
+    };
+  }, [state]);
+
+  return {
+    ...state,
+    toast,
+    dismiss: (toastId?: string) => dispatch({ type: 'DISMISS_TOAST', toastId }),
+  };
+}
+
+export { useToast, toast };

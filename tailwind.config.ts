@@ -1,1 +1,90 @@
-{"data":"aW1wb3J0IHR5cGUgeyBDb25maWcgfSBmcm9tICd0YWlsd2luZGNzcyc7Cgpjb25zdCBjb25maWc6IENvbmZpZyA9IHsKICBkYXJrTW9kZTogWydjbGFzcyddLAogIGNvbnRlbnQ6IFsKICAgICcuL3BhZ2VzLyoqLyoue2pzLHRzLGpzeCx0c3gsbWR4fScsCiAgICAnLi9jb21wb25lbnRzLyoqLyoue2pzLHRzLGpzeCx0c3gsbWR4fScsCiAgICAnLi9hcHAvKiovKi57anMsdHMsanN4LHRzeCxtZHh9JywKICBdLAogIHRoZW1lOiB7CiAgICBleHRlbmQ6IHsKICAgICAgYmFja2dyb3VuZEltYWdlOiB7CiAgICAgICAgJ2dyYWRpZW50LXJhZGlhbCc6ICdyYWRpYWwtZ3JhZGllbnQodmFyKC0tdHctZ3JhZGllbnQtc3RvcHMpKScsCiAgICAgICAgJ2dyYWRpZW50LWNvbmljJzoKICAgICAgICAgICdjb25pYy1ncmFkaWVudChmcm9tIDE4MGRlZyBhdCA1MCUgNTAlLCB2YXIoLS10dy1ncmFkaWVudC1zdG9wcykpJywKICAgICAgfSwKICAgICAgYm9yZGVyUmFkaXVzOiB7CiAgICAgICAgbGc6ICd2YXIoLS1yYWRpdXMpJywKICAgICAgICBtZDogJ2NhbGModmFyKC0tcmFkaXVzKSAtIDJweCknLAogICAgICAgIHNtOiAnY2FsYyh2YXIoLS1yYWRpdXMpIC0gNHB4KScsCiAgICAgIH0sCiAgICAgIGNvbG9yczogewogICAgICAgIGJhY2tncm91bmQ6ICdoc2wodmFyKC0tYmFja2dyb3VuZCkpJywKICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWZvcmVncm91bmQpKScsCiAgICAgICAgY2FyZDogewogICAgICAgICAgREVGQVVMVDogJ2hzbCh2YXIoLS1jYXJkKSknLAogICAgICAgICAgZm9yZWdyb3VuZDogJ2hzbCh2YXIoLS1jYXJkLWZvcmVncm91bmQpKScsCiAgICAgICAgfSwKICAgICAgICBwb3BvdmVyOiB7CiAgICAgICAgICBERUZBVUxUOiAnaHNsKHZhcigtLXBvcG92ZXIpKScsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLXBvcG92ZXItZm9yZWdyb3VuZCkpJywKICAgICAgICB9LAogICAgICAgIHByaW1hcnk6IHsKICAgICAgICAgIERFRkFVTFQ6ICdoc2wodmFyKC0tcHJpbWFyeSkpJywKICAgICAgICAgIGZvcmVncm91bmQ6ICdoc2wodmFyKC0tcHJpbWFyeS1mb3JlZ3JvdW5kKSknLAogICAgICAgIH0sCiAgICAgICAgc2Vjb25kYXJ5OiB7CiAgICAgICAgICBERUZBVUxUOiAnaHNsKHZhcigtLXNlY29uZGFyeSkpJywKICAgICAgICAgIGZvcmVncm91bmQ6ICdoc2wodmFyKC0tc2Vjb25kYXJ5LWZvcmVncm91bmQpKScsCiAgICAgICAgfSwKICAgICAgICBtdXRlZDogewogICAgICAgICAgREVGQVVMVDogJ2hzbCh2YXIoLS1tdXRlZCkpJywKICAgICAgICAgIGZvcmVncm91bmQ6ICdoc2wodmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCkpJywKICAgICAgICB9LAogICAgICAgIGFjY2VudDogewogICAgICAgICAgREVGQVVMVDogJ2hzbCh2YXIoLS1hY2NlbnQpKScsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWFjY2VudC1mb3JlZ3JvdW5kKSknLAogICAgICAgIH0sCiAgICAgICAgZGVzdHJ1Y3RpdmU6IHsKICAgICAgICAgIERFRkFVTFQ6ICdoc2wodmFyKC0tZGVzdHJ1Y3RpdmUpKScsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWRlc3RydWN0aXZlLWZvcmVncm91bmQpKScsCiAgICAgICAgfSwKICAgICAgICBib3JkZXI6ICdoc2wodmFyKC0tYm9yZGVyKSknLAogICAgICAgIGlucHV0OiAnaHNsKHZhcigtLWlucHV0KSknLAogICAgICAgIHJpbmc6ICdoc2wodmFyKC0tcmluZykpJywKICAgICAgICBjaGFydDogewogICAgICAgICAgJzEnOiAnaHNsKHZhcigtLWNoYXJ0LTEpKScsCiAgICAgICAgICAnMic6ICdoc2wodmFyKC0tY2hhcnQtMikpJywKICAgICAgICAgICczJzogJ2hzbCh2YXIoLS1jaGFydC0zKSknLAogICAgICAgICAgJzQnOiAnaHNsKHZhcigtLWNoYXJ0LTQpKScsCiAgICAgICAgICAnNSc6ICdoc2wodmFyKC0tY2hhcnQtNSkpJywKICAgICAgICB9LAogICAgICB9LAogICAgICBrZXlmcmFtZXM6IHsKICAgICAgICAnYWNjb3JkaW9uLWRvd24nOiB7CiAgICAgICAgICBmcm9tOiB7CiAgICAgICAgICAgIGhlaWdodDogJzAnLAogICAgICAgICAgfSwKICAgICAgICAgIHRvOiB7CiAgICAgICAgICAgIGhlaWdodDogJ3ZhcigtLXJhZGl4LWFjY29yZGlvbi1jb250ZW50LWhlaWdodCknLAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICAgICdhY2NvcmRpb24tdXAnOiB7CiAgICAgICAgICBmcm9tOiB7CiAgICAgICAgICAgIGhlaWdodDogJ3ZhcigtLXJhZGl4LWFjY29yZGlvbi1jb250ZW50LWhlaWdodCknLAogICAgICAgICAgfSwKICAgICAgICAgIHRvOiB7CiAgICAgICAgICAgIGhlaWdodDogJzAnLAogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICB9LAogICAgICBhbmltYXRpb246IHsKICAgICAgICAnYWNjb3JkaW9uLWRvd24nOiAnYWNjb3JkaW9uLWRvd24gMC4ycyBlYXNlLW91dCcsCiAgICAgICAgJ2FjY29yZGlvbi11cCc6ICdhY2NvcmRpb24tdXAgMC4ycyBlYXNlLW91dCcsCiAgICAgIH0sCiAgICB9LAogIH0sCiAgcGx1Z2luczogW3JlcXVpcmUoJ3RhaWx3aW5kY3NzLWFuaW1hdGUnKV0sCn07CmV4cG9ydCBkZWZhdWx0IGNvbmZpZzsK"}
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  darkMode: ["class"],
+  content: [
+    './pages/**/*.{ts,tsx,jsx,mdx}',
+    './components/**/*.{ts,tsx,jsx,mdx}',
+    './app/**/*.{ts,tsx,jsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)'
+      },
+      colors: {
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        card: {
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))'
+        },
+        popover: {
+          DEFAULT: 'hsl(var(--popover))',
+          foreground: 'hsl(var(--popover-foreground))'
+        },
+        primary: {
+          DEFAULT: 'hsl(var(--primary))',
+          foreground: 'hsl(var(--primary-foreground))'
+        },
+        secondary: {
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))'
+        },
+        muted: {
+          DEFAULT: 'hsl(var(--muted))',
+          foreground: 'hsl(var(--muted-foreground))'
+        },
+        accent: {
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))'
+        },
+        destructive: {
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))'
+        },
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
+        chart: {
+          '1': 'hsl(var(--chart-1))',
+          '2': 'hsl(var(--chart-2))',
+          '3': 'hsl(var(--chart-3))',
+          '4': 'hsl(var(--chart-4))',
+          '5': 'hsl(var(--chart-5))'
+        }
+      },
+      keyframes: {
+        'accordion-down': {
+          from: {
+            height: '0'
+          },
+          to: {
+            height: 'var(--radix-accordion-content-height)'
+          }
+        },
+        'accordion-up': {
+          from: {
+            height: 'var(--radix-accordion-content-height)'
+          },
+          to: {
+            height: '0'
+          }
+        }
+      },
+      animation: {
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out'
+      }
+    }
+  },
+  plugins: [require('tailwindcss-animate')]
+}
+
+export default config

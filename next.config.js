@@ -1,1 +1,10 @@
-{"data":"LyoqIEB0eXBlIHtpbXBvcnQoJ25leHQnKS5OZXh0Q29uZmlnfSAqLwpjb25zdCBuZXh0Q29uZmlnID0gewogIG91dHB1dDogJ2V4cG9ydCcsCiAgdHJhaWxpbmdTbGFzaDogdHJ1ZSwKICBpbWFnZXM6IHsKICAgIHVub3B0aW1pemVkOiB0cnVlCiAgfQp9Cgptb2R1bGUuZXhwb3J0cyA9IG5leHRDb25maWcK"}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
+}
+
+module.exports = nextConfig

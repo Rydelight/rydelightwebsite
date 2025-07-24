@@ -1,1 +1,66 @@
-{"data":"aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCcKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gJy4vY2FyZCcKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICcuL2JhZGdlJwppbXBvcnQgeyBDaGVja2JveCB9IGZyb20gJy4vY2hlY2tib3gnCmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gJy4vYnV0dG9uJwppbXBvcnQgeyBQZW5jaWwsIFRyYXNoMiB9IGZyb20gJ2x1Y2lkZS1yZWFjdCcKaW1wb3J0IHsgbW90aW9uIH0gZnJvbSAnZnJhbWVyLW1vdGlvbicKCmludGVyZmFjZSBUYXNrQ2FyZFByb3BzIHsKICBpZDogc3RyaW5nCiAgdGl0bGU6IHN0cmluZwogIGRlc2NyaXB0aW9uPzogc3RyaW5nCiAgY2F0ZWdvcnk6IHN0cmluZwogIGNvbXBsZXRlZDogYm9vbGVhbgogIG9uQ29tcGxldGU6IChpZDogc3RyaW5nLCBjb21wbGV0ZWQ6IGJvb2xlYW4pID0+IHZvaWQKICBvbkRlbGV0ZTogKGlkOiBzdHJpbmcpID0+IHZvaWQKICBvbkVkaXQ6IChpZDogc3RyaW5nKSA9PiB2b2lkCn0KCmV4cG9ydCBmdW5jdGlvbiBUYXNrQ2FyZCh7CiAgaWQsCiAgdGl0bGUsCiAgZGVzY3JpcHRpb24sCiAgY2F0ZWdvcnksCiAgY29tcGxldGVkLAogIG9uQ29tcGxldGUsCiAgb25EZWxldGUsCiAgb25FZGl0LAp9OiBUYXNrQ2FyZFByb3BzKSB7CiAgcmV0dXJuICgKICAgIDxtb3Rpb24uZGl2CiAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMjAgfX0KICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19CiAgICAgIGV4aXQ9e3sgb3BhY2l0eTogMCwgeTogLTIwIH19CiAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuMiB9fQogICAgPgogICAgICA8Q2FyZCBjbGFzc05hbWU9e2B3LWZ1bGwgJHtjb21wbGV0ZWQgPyAnb3BhY2l0eS02MCcgOiAnJ31gfT4KICAgICAgICA8Q2FyZEhlYWRlciBjbGFzc05hbWU9ImZsZXggZmxleC1yb3cgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBzcGFjZS15LTAgcGItMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0yIj4KICAgICAgICAgICAgPENoZWNrYm94CiAgICAgICAgICAgICAgY2hlY2tlZD17Y29tcGxldGVkfQogICAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZT17KGNoZWNrZWQpID0+IG9uQ29tcGxldGUoaWQsIGNoZWNrZWQgYXMgYm9vbGVhbil9CiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3NOYW1lPXtgdGV4dC1sZyAke2NvbXBsZXRlZCA/ICdsaW5lLXRocm91Z2gnIDogJyd9YH0+CiAgICAgICAgICAgICAge3RpdGxlfQogICAgICAgICAgICA8L0NhcmRUaXRsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggc3BhY2UteC0yIj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgb25DbGljaz17KCkgPT4gb25FZGl0KGlkKX0+CiAgICAgICAgICAgICAgPFBlbmNpbCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJpY29uIiBvbkNsaWNrPXsoKSA9PiBvbkRlbGV0ZShpZCl9PgogICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICB7ZGVzY3JpcHRpb24gJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2Rlc2NyaXB0aW9ufTwvcD59CiAgICAgICAgICA8QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5IiBjbGFzc05hbWU9Im10LTIiPgogICAgICAgICAgICB7Y2F0ZWdvcnl9CiAgICAgICAgICA8L0JhZGdlPgogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KICAgIDwvbW90aW9uLmRpdj4KICApCn0="}
+import { useState } from 'react'
+import { Card, CardContent, CardHeader, CardTitle } from './card'
+import { Badge } from './badge'
+import { Checkbox } from './checkbox'
+import { Button } from './button'
+import { Pencil, Trash2 } from 'lucide-react'
+import { motion } from 'framer-motion'
+
+interface TaskCardProps {
+  id: string
+  title: string
+  description?: string
+  category: string
+  completed: boolean
+  onComplete: (id: string, completed: boolean) => void
+  onDelete: (id: string) => void
+  onEdit: (id: string) => void
+}
+
+export function TaskCard({
+  id,
+  title,
+  description,
+  category,
+  completed,
+  onComplete,
+  onDelete,
+  onEdit,
+}: TaskCardProps) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.2 }}
+    >
+      <Card className={`w-full ${completed ? 'opacity-60' : ''}`}>
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+          <div className="flex items-center space-x-2">
+            <Checkbox
+              checked={completed}
+              onCheckedChange={(checked) => onComplete(id, checked as boolean)}
+            />
+            <CardTitle className={`text-lg ${completed ? 'line-through' : ''}`}>
+              {title}
+            </CardTitle>
+          </div>
+          <div className="flex space-x-2">
+            <Button variant="ghost" size="icon" onClick={() => onEdit(id)}>
+              <Pencil className="h-4 w-4" />
+            </Button>
+            <Button variant="ghost" size="icon" onClick={() => onDelete(id)}>
+              <Trash2 className="h-4 w-4" />
+            </Button>
+          </div>
+        </CardHeader>
+        <CardContent>
+          {description && <p className="text-sm text-muted-foreground">{description}</p>}
+          <Badge variant="secondary" className="mt-2">
+            {category}
+          </Badge>
+        </CardContent>
+      </Card>
+    </motion.div>
+  )
+}

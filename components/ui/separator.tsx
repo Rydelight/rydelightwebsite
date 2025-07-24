@@ -1,1 +1,31 @@
-{"data":"J3VzZSBjbGllbnQnOwoKaW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgKiBhcyBTZXBhcmF0b3JQcmltaXRpdmUgZnJvbSAnQHJhZGl4LXVpL3JlYWN0LXNlcGFyYXRvcic7CgppbXBvcnQgeyBjbiB9IGZyb20gJ0AvbGliL3V0aWxzJzsKCmNvbnN0IFNlcGFyYXRvciA9IFJlYWN0LmZvcndhcmRSZWY8CiAgUmVhY3QuRWxlbWVudFJlZjx0eXBlb2YgU2VwYXJhdG9yUHJpbWl0aXZlLlJvb3Q+LAogIFJlYWN0LkNvbXBvbmVudFByb3BzV2l0aG91dFJlZjx0eXBlb2YgU2VwYXJhdG9yUHJpbWl0aXZlLlJvb3Q+Cj4oCiAgKAogICAgeyBjbGFzc05hbWUsIG9yaWVudGF0aW9uID0gJ2hvcml6b250YWwnLCBkZWNvcmF0aXZlID0gdHJ1ZSwgLi4ucHJvcHMgfSwKICAgIHJlZgogICkgPT4gKAogICAgPFNlcGFyYXRvclByaW1pdGl2ZS5Sb290CiAgICAgIHJlZj17cmVmfQogICAgICBkZWNvcmF0aXZlPXtkZWNvcmF0aXZlfQogICAgICBvcmllbnRhdGlvbj17b3JpZW50YXRpb259CiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgJ3Nocmluay0wIGJnLWJvcmRlcicsCiAgICAgICAgb3JpZW50YXRpb24gPT09ICdob3Jpem9udGFsJyA/ICdoLVsxcHhdIHctZnVsbCcgOiAnaC1mdWxsIHctWzFweF0nLAogICAgICAgIGNsYXNzTmFtZQogICAgICApfQogICAgICB7Li4ucHJvcHN9CiAgICAvPgogICkKKTsKU2VwYXJhdG9yLmRpc3BsYXlOYW1lID0gU2VwYXJhdG9yUHJpbWl0aXZlLlJvb3QuZGlzcGxheU5hbWU7CgpleHBvcnQgeyBTZXBhcmF0b3IgfTsK"}
+'use client';
+
+import * as React from 'react';
+import * as SeparatorPrimitive from '@radix-ui/react-separator';
+
+import { cn } from '@/lib/utils';
+
+const Separator = React.forwardRef<
+  React.ElementRef<typeof SeparatorPrimitive.Root>,
+  React.ComponentPropsWithoutRef<typeof SeparatorPrimitive.Root>
+>(
+  (
+    { className, orientation = 'horizontal', decorative = true, ...props },
+    ref
+  ) => (
+    <SeparatorPrimitive.Root
+      ref={ref}
+      decorative={decorative}
+      orientation={orientation}
+      className={cn(
+        'shrink-0 bg-border',
+        orientation === 'horizontal' ? 'h-[1px] w-full' : 'h-full w-[1px]',
+        className
+      )}
+      {...props}
+    />
+  )
+);
+Separator.displayName = SeparatorPrimitive.Root.displayName;
+
+export { Separator };
