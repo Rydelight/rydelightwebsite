@@ -1,8 +1,5 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { motion, useInView } from 'framer-motion'
-import { useRef } from 'react'
 import Header from '@/components/header'
 import Hero from '@/components/hero'
 import About from '@/components/about'
@@ -15,16 +12,18 @@ import Footer from '@/components/footer'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <>
       <Header />
-      <Hero />
-      <About />
-      <Services />
-      <VehicleFeatures />
-      <ServiceArea />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </main>
+      <main className="min-h-screen overflow-x-hidden">
+        <Hero />
+        <About />
+        <Services />
+        <VehicleFeatures />
+        <ServiceArea />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </main>
+    </>
   )
 }
