@@ -9,6 +9,7 @@ import ServiceArea from '@/components/service-area'
 import Testimonials from '@/components/testimonials'
 import Contact from '@/components/contact'
 import Footer from '@/components/footer'
+import AIChatWidget from '@/components/ai-chat-widget'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Contact />
         <Footer />
       </main>
+      <AIChatWidget />
     </>
   )
 }
