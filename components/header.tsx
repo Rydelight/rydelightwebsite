@@ -78,11 +78,11 @@ export default function Header() {
             {/* Desktop CTA - Added phone number */}
             <div className="hidden lg:flex items-center space-x-4">
               <a
-                href="tel:4698123488"
+                href="tel:4699190519"
                 className="flex items-center space-x-2 text-gray-200 hover:text-[#0091ea] transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">(469) 812-3488</span>
+                <span className="text-sm">(469) 919-0519</span>
               </a>
               <a
                 href="mailto:booking@rydelight.com"
