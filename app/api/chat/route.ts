@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import OpenAI from 'openai';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
 
 // Pricing calculator functions
 function calculateTransferPrice(deadheadMiles: number, loadedMiles: number): number {
@@ -86,6 +84,14 @@ const systemPrompt = `You are Ryder, the friendly and professional AI booking sp
 
 Example: 5 miles deadhead + 10 miles loaded = (5 × $0.75) + (10 × $2.3) = $3.75 + $23 = $26.75
 
+### Common DFW Routes (Approximate Distances)
+- **Prosper, TX to DFW Airport:** ~35-40 miles (one-way)
+- **DFW Airport to Downtown Dallas:** ~20 miles
+- **DFW Airport to Downtown Fort Worth:** ~25 miles
+- **Love Field to Downtown Dallas:** ~7 miles
+- **Plano to DFW Airport:** ~25 miles
+- **Frisco to DFW Airport:** ~30 miles
+
 ### Hourly Pricing
 **Minimum:** 2 hours required
 
@@ -117,15 +123,15 @@ When a customer asks for a price quote:
 2. **For Transfer Pricing:**
    - Ask for pickup location
    - Ask for dropoff location
-   - Estimate distances (you can make reasonable estimates for common DFW routes)
+   - Estimate distances based on common DFW routes
    - Calculate: MAX($20, (deadhead × $0.75) + (loaded × $2.3))
-   - Present the quote clearly
+   - Present the quote clearly with breakdown
 
 3. **For Hourly Pricing:**
    - Ask when they need service (to determine weekday vs weekend)
    - Ask how many hours they need (minimum 2)
    - Calculate based on the tiered rates
-   - Present the quote clearly
+   - Present the quote clearly with breakdown
 
 4. **Always Mention Relevant Value Props:**
    - Suggest Sip & Ride for appropriate occasions (corporate, romantic, celebrations, airport)
@@ -144,6 +150,9 @@ When a customer asks for a price quote:
 - **Love Field (DAL):** Only one main pickup/dropoff location, no terminal confirmation needed
 - **Major Venues:** Accept well-known landmarks (American Airlines Center, AT&T Stadium, etc.)
 - **Deep Ellum/Entertainment Districts:** On busy weekends, streets may be closed - advise on optimal pickup points
+- **Prosper, TX:** Northern suburb of Dallas, approximately 35-40 miles from DFW Airport
+- **McKinney, TX:** Northern suburb, approximately 40-45 miles from DFW Airport
+- **Allen, TX:** Northern suburb, approximately 30-35 miles from DFW Airport
 
 ## IMPORTANT NOTES
 
@@ -165,17 +174,27 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const completion = await openai.chat.completions.create({
-      model: 'gpt-4.1-mini',
-      messages: [
-        { role: 'system', content: systemPrompt },
-        ...messages,
-      ],
-      temperature: 0.7,
-      max_tokens: 500,
+    // Convert messages to Gemini format
+    const history = messages.slice(0, -1).map((msg: any) => ({
+      role: msg.role === 'assistant' ? 'model' : 'user',
+      parts: [{ text: msg.content }],
+    }));
+
+    const userMessage = messages[messages.length - 1].content;
+
+    // Use Gemini 3 Flash Preview model
+    const model = genAI.getGenerativeModel({ 
+      model: 'gemini-3-flash-preview',
+      systemInstruction: systemPrompt,
     });
 
-    const assistantMessage = completion.choices[0]?.message?.content || 
+    const chat = model.startChat({
+      history,
+    });
+
+    const result = await chat.sendMessage(userMessage);
+    const response = await result.response;
+    const assistantMessage = response.text() || 
       "I apologize, but I'm having trouble responding right now. Please contact us at booking@rydelight.com or (469) 919-0519.";
 
     return NextResponse.json({ message: assistantMessage });
