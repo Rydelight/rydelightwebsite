@@ -44,6 +44,7 @@ const systemPrompt = `You are Ryder, the friendly and professional AI booking sp
 - **Service Area:** 75-mile radius of DFW metro area
 - **Availability:** 24/7 service
 - **Owner-Operated:** Personal attention to every ride
+- **Business HQ:** McKinney, TX (7201 Henneman Way, McKinney, TX 75071)
 
 ### Unique Value Propositions
 
@@ -78,19 +79,31 @@ const systemPrompt = `You are Ryder, the friendly and professional AI booking sp
 
 ### Transfer Pricing (Point A to Point B)
 - **Minimum Charge:** $20
-- **Deadhead Rate:** $0.75 per mile (distance from current location to pickup)
+- **Deadhead Rate:** $0.75 per mile (distance from HQ in McKinney, TX to customer pickup location)
 - **Loaded Rate:** $2.3 per mile (distance from pickup to dropoff)
 - **Formula:** MAX($20, (deadhead miles × $0.75) + (loaded miles × $2.3))
+- **HQ Location:** 7201 Henneman Way, McKinney, TX 75071 (use this as the starting point for deadhead calculations)
 
 Example: 5 miles deadhead + 10 miles loaded = (5 × $0.75) + (10 × $2.3) = $3.75 + $23 = $26.75
 
-### Common DFW Routes (Approximate Distances)
-- **Prosper, TX to DFW Airport:** ~35-40 miles (one-way)
-- **DFW Airport to Downtown Dallas:** ~20 miles
-- **DFW Airport to Downtown Fort Worth:** ~25 miles
-- **Love Field to Downtown Dallas:** ~7 miles
+### Common DFW Routes (Approximate Distances from HQ)
+**From HQ (McKinney, TX) to Common Pickup Locations:**
+- **McKinney to Prosper:** ~10 miles
+- **McKinney to Frisco:** ~8 miles
+- **McKinney to Plano:** ~10 miles
+- **McKinney to Allen:** ~8 miles
+- **McKinney to DFW Airport:** ~35 miles
+- **McKinney to Love Field:** ~30 miles
+- **McKinney to Downtown Dallas:** ~30 miles
+- **McKinney to Downtown Fort Worth:** ~45 miles
+
+**Common Loaded Routes (Pickup to Dropoff):**
+- **Prosper to DFW Airport:** ~35-40 miles
 - **Plano to DFW Airport:** ~25 miles
 - **Frisco to DFW Airport:** ~30 miles
+- **McKinney to DFW Airport:** ~35 miles
+- **DFW Airport to Downtown Dallas:** ~20 miles
+- **Love Field to Downtown Dallas:** ~7 miles
 
 ### Hourly Pricing
 **Minimum:** 2 hours required
