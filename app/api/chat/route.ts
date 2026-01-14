@@ -282,8 +282,10 @@ async function logConversation(userMessage: string, botResponse: string, hasErro
 }
 
 export async function POST(request: NextRequest) {
+  let messages: any[] = [];
   try {
-    const { messages } = await request.json();
+    const requestData = await request.json();
+    messages = requestData.messages;
 
     if (!messages || !Array.isArray(messages)) {
       return NextResponse.json(
