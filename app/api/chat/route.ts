@@ -254,6 +254,33 @@ Ready to book? Just click any "Book Now" button on this page, or email booking@r
 
 Be helpful, accurate with pricing, and always highlight what makes Rydelight special!`;
 
+// Helper function to log conversation to Google Drive
+async function logConversation(userMessage: string, botResponse: string, hasError: boolean = false) {
+  try {
+    const timestamp = new Date().toISOString();
+    const sessionId = `sess_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    
+    // Create CSV row
+    const csvRow = `"${timestamp}","${sessionId}","${userMessage.replace(/"/g, '""')}","${botResponse.replace(/"/g, '""')}","${hasError}"`;
+    
+    // Log to console for Vercel logs
+    console.log('[CONVERSATION_LOG]', JSON.stringify({
+      timestamp,
+      sessionId,
+      userMessage,
+      botResponse,
+      hasError
+    }));
+    
+    // TODO: Append to Google Sheet via API
+    // For now, logs are captured in Vercel logs and can be exported
+    
+  } catch (logError) {
+    console.error('Error logging conversation:', logError);
+    // Don't fail the request if logging fails
+  }
+}
+
 export async function POST(request: NextRequest) {
   try {
     const { messages } = await request.json();
@@ -301,9 +328,18 @@ export async function POST(request: NextRequest) {
     const assistantMessage = response.text() || 
       "I apologize, but I'm having trouble responding right now. Please contact us at booking@rydelight.com or (469) 919-0519.";
 
+    // Log the conversation
+    await logConversation(userMessage, assistantMessage, false);
+
     return NextResponse.json({ message: assistantMessage });
   } catch (error) {
     console.error('Error in chat API:', error);
+    
+    // Log the error conversation
+    const errorMessage = "I apologize, but I'm having trouble connecting right now.";
+    const userMessage = messages?.[messages.length - 1]?.content || 'Unknown message';
+    await logConversation(userMessage, errorMessage, true);
+    
     return NextResponse.json(
       { error: 'Failed to process chat message' },
       { status: 500 }
