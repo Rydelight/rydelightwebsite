@@ -244,7 +244,7 @@ export async function POST(request: NextRequest) {
 
     // Use Gemini 2.5 Flash model
     const model = genAI.getGenerativeModel({ 
-      model: 'gemini-3-flash',
+      model: 'gemini-3-flash-preview',
       systemInstruction: systemPrompt,
     });
 
