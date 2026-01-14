@@ -238,10 +238,17 @@ export async function POST(request: NextRequest) {
     }
 
     // Convert messages to Gemini format
-    const history = messages.slice(0, -1).map((msg: any) => ({
-      role: msg.role === 'assistant' ? 'model' : 'user',
-      parts: [{ text: msg.content }],
-    }));
+    // Filter out the initial assistant greeting and only include user-assistant exchanges
+    const history = messages.slice(0, -1)
+      .filter((msg: any, index: number) => {
+        // Remove the first message if it's from assistant (initial greeting)
+        if (index === 0 && msg.role === 'assistant') return false;
+        return true;
+      })
+      .map((msg: any) => ({
+        role: msg.role === 'assistant' ? 'model' : 'user',
+        parts: [{ text: msg.content }],
+      }));
 
     const userMessage = messages[messages.length - 1].content;
 
