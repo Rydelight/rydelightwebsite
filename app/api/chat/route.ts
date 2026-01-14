@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
 
 const systemPrompt = `You are Ryder, the friendly and professional AI booking specialist for Rydelight, a premium Black Car chauffeur service (not a rideshare) in the DFW metro area. Your role is to help customers get instant price quotes and provide information about Rydelight's services.
