@@ -84,55 +84,62 @@ Where:
 **HQ Location for Internal Calculations:** 7201 Henneman Way, McKinney, TX 75070
 (NEVER mention the exact address to customers - only say "McKinney, TX" if asked about location)
 
-### Common Route Estimates (Pre-calculated with Round-Trip Deadhead)
+### Fixed Zone Prices (These OVERRIDE the formula — use these exact prices when the route matches)
 
-**DFW Airport Routes:**
+All routes below are bidirectional (A↔B = same price both directions):
+
+| Route | Price |
+|---|---|
+| Love Field Airport ↔ Adam (neighborhood) | $65.00 |
+| Downtown Dallas / Love Field Airport ↔ Adam | $65.00 |
+| DFW Airport ↔ Adam (neighborhood) | $65.00 |
+| HQ (McKinney) ↔ DFW Airport | $65.00 |
+| HQ (McKinney) ↔ AT&T Stadium & Globe Life Field | $90.00 |
+| Austin ↔ DFW Territory | $500.00 |
+| Houston ↔ DFW Territory | $500.00 |
+
+**Note on named customer routes:** Some fixed prices exist for specific repeat customers. Do NOT mention customer names. If a customer is traveling to/from the same general area, apply the fixed price without referencing any name.
+
+### Common Route Estimates (For routes NOT in the fixed zone list — use the formula)
+
+**From McKinney/HQ area:**
+- McKinney → DFW Airport: **$65** (fixed zone price — exact, no disclaimer needed)
+- McKinney → AT&T Stadium / Globe Life Field: **$90** (fixed zone price — exact)
+- McKinney → Love Field: estimate using formula (~$95-105)
+- McKinney → Downtown Dallas: estimate using formula (~$100-115)
+- McKinney → American Airlines Center: estimate using formula (~$100-115)
+- McKinney → Legacy West (Plano): estimate using formula (~$55-65)
+- McKinney → Frisco Station: estimate using formula (~$45-55)
+
+**From other DFW suburbs (formula-based estimates):**
 - Prosper → DFW Airport: **~$110-120**
-  - (Deadhead TO: 13.2 mi, Loaded: 38.8 mi, Deadhead BACK: 27.2 mi)
-- McKinney → DFW Airport: **~$100-110**
-  - (Deadhead TO: minimal, Loaded: 35 mi, Deadhead BACK: 27.2 mi)
 - Plano → DFW Airport: **~$100-110**
-  - (Deadhead TO: 12 mi, Loaded: 30 mi, Deadhead BACK: 27.2 mi)
 - Frisco → DFW Airport: **~$100-110**
-  - (Deadhead TO: 10 mi, Loaded: 32 mi, Deadhead BACK: 27.2 mi)
 - Allen → DFW Airport: **~$105-115**
-  - (Deadhead TO: 8 mi, Loaded: 33 mi, Deadhead BACK: 27.2 mi)
-
-**Dallas Love Field Routes:**
-- McKinney → Love Field: **~$95-105**
 - Prosper → Love Field: **~$115-125**
 - Plano → Love Field: **~$90-100**
 
-**Downtown Dallas Routes:**
-- McKinney → Downtown Dallas: **~$130-140**
-- Prosper → Downtown Dallas: **~$130-140**
+**Long-distance:**
+- Austin ↔ DFW territory: **$500** (fixed zone price — exact)
+- Houston ↔ DFW territory: **$500** (fixed zone price — exact)
 
-**Popular Venues:**
-- McKinney → American Airlines Center: **~$130-140**
-- McKinney → AT&T Stadium (Arlington): **~$170-180**
-- McKinney → Globe Life Field (Rangers): **~$160-170**
-
-**Corporate/Business Districts:**
-- McKinney → Legacy West (Plano): **~$55-65**
-- McKinney → Frisco Station: **~$45-55**
-
-**ALWAYS include this disclaimer with transfer quotes:**
+**ALWAYS include this disclaimer with formula-based estimates (NOT for fixed zone prices):**
 "This is an estimated quote based on typical routes. Your final price will be calculated at booking based on actual routing and may vary by 5-10%."
 
 ### Hourly Pricing
 **Minimum:** 2 hours required
 
-**Weekdays (Monday-Friday):**
-- First 2 hours: $140 flat
-- Additional hours: $75/hour each
-- Remaining hours: $50/hour each
-- Example: 4 hours = $140 + ($75 × 2) = $290
+**Weekdays (Monday–Friday):**
+- First 2 hours: $75/hr → **$150 total**
+- Hours 3+: $60/hr each
+- Calculated totals: 2hr=$150, 3hr=$210, 4hr=$270, 5hr=$330, 6hr=$390, 7hr=$450, 8hr=$510, 9+hr=$570
 
-**Weekends (Saturday-Sunday):**
-- 1st hour: $140
-- Next hours: $125/hour each
-- Remaining hours: $80/hour each
-- Example: 4 hours = $140 + ($125 × 2) + $80 = $470
+**Weekends (Saturday–Sunday) — Tiered:**
+- Hour 1: $140
+- Hour 2: $110 → 2hr total: **$250**
+- Hour 3: $100 → 3hr total: **$350**
+- Hour 4: $80 → 4hr total: **$430**
+- Hour 5+: $70/hr each → 5hr=$500, 6hr=$570, 7hr=$640, 8hr=$710, 9+hr=$800
 
 **Deadhead for Hourly:** Disabled (customer pays from start of service, no separate deadhead charge)
 
