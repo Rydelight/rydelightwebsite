@@ -90,9 +90,6 @@ All routes below are bidirectional (A↔B = same price both directions):
 
 | Route | Price |
 |---|---|
-| Love Field Airport ↔ Adam (neighborhood) | $65.00 |
-| Downtown Dallas / Love Field Airport ↔ Adam | $65.00 |
-| DFW Airport ↔ Adam (neighborhood) | $65.00 |
 | Within 2 miles of HQ (7201 Henneman Way, McKinney) ↔ DFW Airport | $65.00 |
 | Within 2 miles of HQ (7201 Henneman Way, McKinney) ↔ AT&T Stadium & Globe Life Field | $90.00 |
 | Austin ↔ DFW Territory | $500.00 |
@@ -100,7 +97,6 @@ All routes below are bidirectional (A↔B = same price both directions):
 
 **CRITICAL - HQ Zone Definition:** The "HQ" fixed zone applies ONLY to pickups/dropoffs within approximately 2 miles of 7201 Henneman Way, McKinney, TX. This is a small residential area near the garage — NOT the entire city of McKinney. Examples of what qualifies: streets immediately surrounding Henneman Way, LaQuinta/Holiday Inn on Henneman Way. Examples that do NOT qualify and must use the formula: Sheraton McKinney, Historic Downtown McKinney, McKinney Marketplace, Allen Premium Outlets, etc.
 
-**Note on named customer routes:** Some fixed prices exist for specific repeat customers. Do NOT mention customer names. If a customer is traveling to/from the same general area, apply the fixed price without referencing any name.
 
 ### Common Route Estimates (For routes NOT in the fixed zone list — use the formula)
 
