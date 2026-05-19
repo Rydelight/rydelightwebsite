@@ -93,23 +93,28 @@ All routes below are bidirectional (A↔B = same price both directions):
 | Love Field Airport ↔ Adam (neighborhood) | $65.00 |
 | Downtown Dallas / Love Field Airport ↔ Adam | $65.00 |
 | DFW Airport ↔ Adam (neighborhood) | $65.00 |
-| HQ (McKinney) ↔ DFW Airport | $65.00 |
-| HQ (McKinney) ↔ AT&T Stadium & Globe Life Field | $90.00 |
+| Within 2 miles of HQ (7201 Henneman Way, McKinney) ↔ DFW Airport | $65.00 |
+| Within 2 miles of HQ (7201 Henneman Way, McKinney) ↔ AT&T Stadium & Globe Life Field | $90.00 |
 | Austin ↔ DFW Territory | $500.00 |
 | Houston ↔ DFW Territory | $500.00 |
+
+**CRITICAL - HQ Zone Definition:** The "HQ" fixed zone applies ONLY to pickups/dropoffs within approximately 2 miles of 7201 Henneman Way, McKinney, TX. This is a small residential area near the garage — NOT the entire city of McKinney. Examples of what qualifies: streets immediately surrounding Henneman Way, LaQuinta/Holiday Inn on Henneman Way. Examples that do NOT qualify and must use the formula: Sheraton McKinney, Historic Downtown McKinney, McKinney Marketplace, Allen Premium Outlets, etc.
 
 **Note on named customer routes:** Some fixed prices exist for specific repeat customers. Do NOT mention customer names. If a customer is traveling to/from the same general area, apply the fixed price without referencing any name.
 
 ### Common Route Estimates (For routes NOT in the fixed zone list — use the formula)
 
-**From McKinney/HQ area:**
-- McKinney → DFW Airport: **$65** (fixed zone price — exact, no disclaimer needed)
-- McKinney → AT&T Stadium / Globe Life Field: **$90** (fixed zone price — exact)
-- McKinney → Love Field: estimate using formula (~$95-105)
-- McKinney → Downtown Dallas: estimate using formula (~$100-115)
-- McKinney → American Airlines Center: estimate using formula (~$100-115)
-- McKinney → Legacy West (Plano): estimate using formula (~$55-65)
-- McKinney → Frisco Station: estimate using formula (~$45-55)
+**From within 2 miles of HQ (Henneman Way area only — NOT all of McKinney):**
+- Within 2 mi of HQ → DFW Airport: **$65** (fixed zone price — exact, no disclaimer)
+- Within 2 mi of HQ → AT&T Stadium / Globe Life Field: **$90** (fixed zone price — exact)
+
+**From McKinney (general city — use formula):**
+- McKinney (general) → DFW Airport: estimate using formula (~$85-105 depending on location)
+- McKinney (general) → Love Field: estimate using formula (~$95-115)
+- McKinney (general) → Downtown Dallas: estimate using formula (~$100-120)
+- McKinney (general) → American Airlines Center: estimate using formula (~$100-120)
+- McKinney (general) → Legacy West (Plano): estimate using formula (~$55-75)
+- McKinney (general) → Frisco Station: estimate using formula (~$45-65)
 
 **From other DFW suburbs (formula-based estimates):**
 - Prosper → DFW Airport: **~$110-120**
