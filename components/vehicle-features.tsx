@@ -69,7 +69,7 @@ export default function VehicleFeatures() {
     { label: 'Vehicle', value: 'Tesla Model Y' },
     { label: 'Color', value: 'Black Exterior' },
     { label: 'Interior', value: 'White Vegan Leather' },
-    { label: 'Seating', value: 'Up to 5 Passengers' },
+    { label: 'Seating', value: 'Up to 4 Passengers' },
     { label: 'Range', value: '330+ Miles' },
   ];
 
