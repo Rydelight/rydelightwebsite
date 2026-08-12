@@ -9,6 +9,7 @@ When a change is ready for production, create a GitHub commit, then record its c
 | Release | Git commit | Vercel deployment | Status | Purpose and rollback note |
 |---|---|---|---|---|
 | `pre-bts-arlington-campaign` | `013e1d5acb2be2b805cd63ddad810033d116f757` | `https://rydelightwebsite-a8v92mimn-rydelight.vercel.app` | Live baseline | Last verified version before the BTS Arlington campaign. Restore this tag if the campaign update must be removed. |
+| `bts-arlington-campaign-2026-08-12` | `eae1afc14221847f2c83f09e273fe4bbc658641c` | `https://rydelightwebsite-c5klqgslg-rydelight.vercel.app` | Live | Adds the Arlington concert campaign, PC sync helper, release registry, and recovery workflow. Verified on `rydelight.com`. |
 
 ## Standard recovery procedure
 
