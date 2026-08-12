@@ -33,7 +33,7 @@ export default function About() {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Your trusted chauffeur service in the DFW metro area, providing premium transportation 
-            with our brand new 2025 Tesla Model Y.
+            with our Tesla Model Y.
           </p>
         </motion.div>
 
