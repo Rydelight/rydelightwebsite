@@ -2,3 +2,6 @@ node_modules/
 .next/
 .env
 .env.local
+
+# Windows folder view metadata
+[Dd]esktop.ini

@@ -31,6 +31,18 @@ if (-not (Test-Path (Join-Path $RepositoryPath '.git'))) {
     throw "The folder exists but is not a Git repository: $RepositoryPath"
 }
 
+$trackedDesktopIni = & git -C $RepositoryPath ls-files '*desktop.ini' '*Desktop.ini'
+if ($LASTEXITCODE -ne 0) {
+    throw "Unable to inspect tracked Windows metadata in $RepositoryPath"
+}
+
+if ($trackedDesktopIni) {
+    & git -C $RepositoryPath restore --staged --worktree -- $trackedDesktopIni
+    if ($LASTEXITCODE -ne 0) {
+        throw 'Unable to restore tracked Windows desktop.ini metadata files.'
+    }
+}
+
 $changes = & git -C $RepositoryPath status --porcelain
 if ($LASTEXITCODE -ne 0) {
     throw "Unable to inspect Git status in $RepositoryPath"
