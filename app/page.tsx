@@ -2,7 +2,6 @@
 
 import Header from '@/components/header'
 import Hero from '@/components/hero'
-import ArlingtonConcertCampaign from '@/components/arlington-concert-campaign'
 import About from '@/components/about'
 import Services from '@/components/services'
 import VehicleFeatures from '@/components/vehicle-features'
@@ -18,7 +17,6 @@ export default function Home() {
       <Header />
       <main className="min-h-screen overflow-x-hidden">
         <Hero />
-        <ArlingtonConcertCampaign />
         <About />
         <Services />
         <VehicleFeatures />
