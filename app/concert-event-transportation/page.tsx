@@ -78,7 +78,7 @@ const bookingSteps = [
     number: '02',
     title: 'Confirm the ride',
     description:
-      'Final availability and direct-booking details are handled through Moovs.',
+      'Final availability and booking details are confirmed in the secure booking flow.',
   },
   {
     number: '03',
@@ -107,7 +107,7 @@ const faqs = [
   {
     question: 'Can Rydelight check availability or give a final total on this page?',
     answer:
-      'Final availability and direct-booking totals are determined in Moovs. Use the booking flow or email your event details for help with a specific request.',
+      'Final availability and booking details are confirmed in the secure booking flow. Use the booking flow or email your event details for help with a specific request.',
   },
   {
     question: 'Is Rydelight affiliated with an event, artist, venue, or team?',
@@ -308,7 +308,7 @@ export default function ConcertEventTransportationPage() {
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#0077c2]">Details, clearly handled</p>
             <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.04em] sm:text-5xl">Questions before you plan?</h2>
-            <p className="mt-6 max-w-md text-lg leading-8 text-slate-600">The essentials are straightforward. Your specific booking details are confirmed through Moovs.</p>
+            <p className="mt-6 max-w-md text-lg leading-8 text-slate-600">The essentials are straightforward. Your specific booking details are confirmed in the secure booking flow.</p>
           </div>
           <div className="divide-y divide-slate-200 rounded-2xl border border-slate-200 bg-[#fbfdff] px-6">
             {faqs.map((faq) => (
@@ -345,7 +345,7 @@ export default function ConcertEventTransportationPage() {
               <Mail className="h-4 w-4" /> Email event details
             </a>
           </div>
-          <p className="mt-8 text-xs leading-5 text-white/75">Independent private black-car service. Final availability and booking details are determined in Moovs.</p>
+          <p className="mt-8 text-xs leading-5 text-white/75">Independent private black-car service. Final availability and booking details are confirmed in the secure booking flow.</p>
         </div>
       </section>
     </main>
