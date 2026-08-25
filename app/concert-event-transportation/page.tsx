@@ -18,11 +18,89 @@ import {
   Zap,
 } from 'lucide-react'
 
+const pageUrl = 'https://rydelight.com/concert-event-transportation'
+const heroImageUrl = 'https://rydelight.com/images/rydelight-event-transportation-hero.png'
+const pageTitle = 'DFW Concert & Event Transportation | Rydelight'
+const pageDescription =
+  'Private electric black-car service for concerts, sporting events, galas, dinners, and nights out across Dallas-Fort Worth. Travel in a 2025 Tesla Model Y with a planned pickup approach.'
+
 export const metadata: Metadata = {
-  title: 'Concert & Event Transportation in DFW | Rydelight',
-  description:
-    'Private electric black-car service for concerts, sporting events, dinners, galas, and celebrations across DFW. Ride in a 2025 Tesla Model Y with a pickup approach confirmed with your booking.',
+  metadataBase: new URL('https://rydelight.com'),
+  title: pageTitle,
+  description: pageDescription,
+  keywords: [],
+  alternates: {
+    canonical: '/concert-event-transportation',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: 'website',
+    url: pageUrl,
+    title: pageTitle,
+    description: pageDescription,
+    siteName: 'Rydelight',
+    images: [
+      {
+        url: heroImageUrl,
+        width: 2560,
+        height: 1440,
+        alt: 'Private electric black-car service arriving at a DFW event venue at night',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+    images: [heroImageUrl],
+  },
 }
+
+const eventPageStructuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Concert & Event Transportation',
+    description: pageDescription,
+    serviceType: [
+      'Concert transportation',
+      'Sporting event transportation',
+      'Private black-car service',
+    ],
+    provider: {
+      '@type': 'Organization',
+      name: 'Rydelight',
+      url: 'https://rydelight.com',
+    },
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: 'Dallas-Fort Worth Metroplex',
+    },
+    image: heroImageUrl,
+    url: pageUrl,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://rydelight.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Concert & Event Transportation',
+        item: pageUrl,
+      },
+    ],
+  },
+]
 
 const bookingUrl = 'https://customer.moovs.app/rydelight/new/info'
 const emailUrl = 'mailto:booking@rydelight.com?subject=Event%20Transportation%20Request'
@@ -118,6 +196,10 @@ const faqs = [
 export default function ConcertEventTransportationPage() {
   return (
     <main className="min-h-screen bg-[#070D17] text-white selection:bg-[#0091ea] selection:text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(eventPageStructuredData) }}
+      />
       <header className="absolute inset-x-0 top-0 z-20">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
           <a href="/" className="group flex items-center gap-3" aria-label="Rydelight home">
