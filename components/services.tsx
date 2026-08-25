@@ -254,16 +254,16 @@ export default function Services() {
               </ul>
               
               <a
-                href="https://customer.moovs.app/rydelight/new/info"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={service.category === 'Entertainment' ? '/concert-event-transportation' : 'https://customer.moovs.app/rydelight/new/info'}
+                target={service.category === 'Entertainment' ? undefined : '_blank'}
+                rel={service.category === 'Entertainment' ? undefined : 'noopener noreferrer'}
                 className={`w-full text-center py-3 px-4 rounded-lg font-semibold transition-all duration-300 block ${
                   service.featured
                     ? 'bg-[#0091ea] text-white hover:bg-[#0077c2]'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                Book Now
+                {service.category === 'Entertainment' ? 'Explore Event Transportation' : 'Book Now'}
               </a>
             </motion.div>
           ))}

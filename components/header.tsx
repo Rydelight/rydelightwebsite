@@ -16,20 +16,13 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-    setIsMobileMenuOpen(false);
-  };
-
   const navItems = [
-    { name: 'About', id: 'about' },
-    { name: 'Services', id: 'services' },
-    { name: 'Vehicle', id: 'vehicle' },
-    { name: 'Service Area', id: 'service-area' },
-    { name: 'Contact', id: 'contact' },
+    { name: 'About', href: '/#about' },
+    { name: 'Services', href: '/#services' },
+    { name: 'Events', href: '/concert-event-transportation' },
+    { name: 'Vehicle', href: '/#vehicle' },
+    { name: 'Service Area', href: '/#service-area' },
+    { name: 'Contact', href: '/#contact' },
   ];
 
   return (
@@ -65,13 +58,13 @@ export default function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
               {navItems.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                <a
+                  key={item.href}
+                  href={item.href}
                   className="text-white hover:text-[#0091ea] font-medium transition-colors duration-200"
                 >
                   {item.name}
-                </button>
+                </a>
               ))}
             </nav>
 
@@ -139,13 +132,14 @@ export default function Header() {
             >
               <div className="px-4 py-6 space-y-4">
                 {navItems.map((item) => (
-                  <button
-                    key={item.id}
-                    onClick={() => scrollToSection(item.id)}
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
                     className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium py-3 px-2 rounded-md hover:bg-gray-50 transition-colors"
                   >
                     {item.name}
-                  </button>
+                  </a>
                 ))}
 
                 <div className="pt-4 border-t border-gray-200 space-y-4">
