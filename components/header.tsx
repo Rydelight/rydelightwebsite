@@ -50,7 +50,7 @@ export default function Header() {
                 />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-white">RYDELIGHT</h1>
+                <div className="text-2xl font-bold text-white">RYDELIGHT</div>
                 <p className="text-sm text-gray-200">Premium Chauffeur Service</p>
               </div>
             </motion.div>
@@ -144,11 +144,11 @@ export default function Header() {
 
                 <div className="pt-4 border-t border-gray-200 space-y-4">
                   <a
-                    href="tel:4698123488"
+                    href="tel:4699190519"
                     className="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition-colors py-2 px-2 rounded-md hover:bg-gray-50"
                   >
                     <Phone className="w-5 h-5" />
-                    <span>(469) 812-3488</span>
+                    <span>(469) 919-0519</span>
                   </a>
 
                   <a

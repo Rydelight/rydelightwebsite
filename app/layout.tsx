@@ -5,12 +5,65 @@ import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
+const siteUrl = 'https://rydelight.com'
+const homepageTitle = 'Rydelight | Private Electric Chauffeur Service in DFW'
+const homepageDescription =
+  'Private electric chauffeur service across Dallas-Fort Worth for airport transfers, business travel, events, and special occasions. Travel in a 2025 Tesla Model Y with Rydelight.'
+const socialImage = `${siteUrl}/images/rydelight-event-transportation-hero.png`
+
 export const metadata: Metadata = {
-  title: 'Rydelight - Premium Chauffeur Service | DFW Metro Area',
-  description:
-    'Professional chauffeur service in the DFW metro area. Luxury Tesla Model Y transportation for business executives, airport transfers, and special occasions. Book your ride today.',
-  keywords:
-    'chauffeur service, DFW, Dallas, Fort Worth, airport transfer, Tesla Model Y, luxury transportation, business travel',
+  metadataBase: new URL(siteUrl),
+  title: homepageTitle,
+  description: homepageDescription,
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: 'website',
+    url: siteUrl,
+    title: homepageTitle,
+    description: homepageDescription,
+    siteName: 'Rydelight',
+    images: [
+      {
+        url: socialImage,
+        width: 2560,
+        height: 1440,
+        alt: 'Private electric black-car service arriving at a DFW event venue at night',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: homepageTitle,
+    description: homepageDescription,
+    images: [socialImage],
+  },
+}
+
+const organizationStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Rydelight',
+  url: siteUrl,
+  logo: `${siteUrl}/images/LogoSquareTransparent.png`,
+  email: 'booking@rydelight.com',
+  telephone: '+14699190519',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: '+14699190519',
+    contactType: 'customer service',
+    email: 'booking@rydelight.com',
+    availableLanguage: 'English',
+  },
+  areaServed: {
+    '@type': 'AdministrativeArea',
+    name: 'Dallas-Fort Worth Metroplex',
+  },
 }
 
 export default function RootLayout({
@@ -22,6 +75,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
+        <Script id="organization-structured-data" type="application/ld+json">
+          {JSON.stringify(organizationStructuredData)}
+        </Script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1PYL66XNHS"
           strategy="afterInteractive"
