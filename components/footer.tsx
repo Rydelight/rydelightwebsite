@@ -3,17 +3,11 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -71,21 +65,18 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              {[
-                { name: 'About Us', id: 'about' },
-                { name: 'Our Services', id: 'services' },
-                { name: 'Vehicle Features', id: 'vehicle' },
-                { name: 'Service Area', id: 'service-area' },
-              ].map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => scrollToSection(link.id)}
-                    className="text-gray-300 hover:text-white transition-colors"
-                  >
-                    {link.name}
-                  </button>
-                </li>
-              ))}
+                {[
+                  { name: 'About Us', href: '/#about' },
+                  { name: 'Our Services', href: '/#services' },
+                  { name: 'Vehicle Features', href: '/#vehicle' },
+                  { name: 'Service Area', href: '/#service-area' },
+                ].map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="text-gray-300 transition-colors hover:text-white">
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </div>
 
@@ -94,13 +85,13 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Popular Services</h4>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center space-x-2">
-                <span className="text-yellow-400">★</span>
-                <span>Sip & Ride Premium</span>
+                <span className="text-yellow-400" aria-hidden="true">★</span>
+                <Link href="/#services" className="transition-colors hover:text-white">Sip & Ride Premium</Link>
               </li>
-              <li>Airport Transfers</li>
-              <li>Business Travel</li>
-              <li>Special Occasions</li>
-              <li>Corporate Events</li>
+              <li><Link href="/dfw-airport-transportation/" className="transition-colors hover:text-white">Airport Transfers</Link></li>
+              <li><Link href="/#services" className="transition-colors hover:text-white">Business Travel</Link></li>
+              <li><Link href="/#services" className="transition-colors hover:text-white">Special Occasions</Link></li>
+              <li><Link href="/concert-event-transportation/" className="transition-colors hover:text-white">Corporate Events</Link></li>
             </ul>
             <div className="mt-6">
               <a
