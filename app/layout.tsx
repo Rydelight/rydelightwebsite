@@ -10,7 +10,7 @@ const siteUrl = 'https://rydelight.com'
 const homepageTitle = 'Rydelight | Private Electric Chauffeur Service in DFW'
 const homepageDescription =
   'Private electric chauffeur service across Dallas-Fort Worth for airport transfers, business travel, events, and special occasions. Travel in a 2025 Tesla Model Y with Rydelight.'
-const socialImage = `${siteUrl}/images/rydelight-event-transportation-hero.png`
+const socialImage = `${siteUrl}/images/rydelight-home-hero-private-electric.png`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: socialImage,
         width: 2560,
         height: 1440,
-        alt: 'Private electric black-car service arriving at a DFW event venue at night',
+        alt: 'Private electric chauffeur vehicle in the Dallas-Fort Worth area',
       },
     ],
   },
