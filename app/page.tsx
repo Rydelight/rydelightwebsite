@@ -23,8 +23,8 @@ export default function Home() {
         <ServiceArea />
         <Testimonials />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
       <AIChatWidget />
     </>
   )
