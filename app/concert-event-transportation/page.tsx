@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import {
   ArrowRight,
   CalendarCheck,
@@ -202,7 +203,7 @@ export default function ConcertEventTransportationPage() {
       />
       <header className="absolute inset-x-0 top-0 z-20">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
-          <a href="/" className="group flex items-center gap-3" aria-label="Rydelight home">
+          <Link href="/" className="group flex items-center gap-3" aria-label="Rydelight home">
             <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl border border-white/20 bg-white/5 transition group-hover:border-[#0091ea]">
               <Image
                 src="/images/LogoSquareTransparent.png"
@@ -216,11 +217,11 @@ export default function ConcertEventTransportationPage() {
               <div className="text-lg font-bold tracking-[0.16em]">RYDELIGHT</div>
               <div className="text-[10px] font-medium uppercase tracking-[0.2em] text-slate-300">Private black-car service</div>
             </div>
-          </a>
+          </Link>
           <div className="hidden items-center gap-6 md:flex">
-            <a href="/" className="text-sm font-medium text-slate-200 transition hover:text-white">
+            <Link href="/" className="text-sm font-medium text-slate-200 transition hover:text-white">
               Back to home
-            </a>
+            </Link>
             <a
               href={bookingUrl}
               target="_blank"

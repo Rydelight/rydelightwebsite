@@ -136,7 +136,7 @@ export default function Services() {
             
             <p className="text-xl text-center mb-8 opacity-90 max-w-3xl mx-auto leading-relaxed">
               Elevate your journey with our exclusive beverage service. Enjoy premium drinks 
-              perfectly chilled in our Tesla's sub-trunk freezer while you travel in luxury.
+              perfectly chilled in our Tesla&apos;s sub-trunk freezer while you travel in luxury.
             </p>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
@@ -281,7 +281,7 @@ export default function Services() {
           className="mt-16 text-center bg-gradient-to-r from-[#0091ea] to-[#42a5f5] rounded-2xl p-12 text-white"
         >
           <h3 className="text-3xl font-bold mb-4">
-            Don't See Your Occasion Listed?
+            Don&apos;t See Your Occasion Listed?
           </h3>
           <p className="text-xl mb-8 opacity-90">
             We provide custom transportation solutions for any event or need. 

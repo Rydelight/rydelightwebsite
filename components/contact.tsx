@@ -52,7 +52,7 @@ export default function Contact() {
             Get in <span className="text-[#0091ea]">Touch</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Ready to book your premium chauffeur service? We're here to help with 
+            Ready to book your premium chauffeur service? We&apos;re here to help with
             any questions or special requests you may have.
           </p>
         </motion.div>
@@ -191,8 +191,7 @@ export default function Contact() {
             <div>
               <h4 className="font-semibold text-[#0091ea] mb-2">Special Requests</h4>
               <p className="text-gray-300">
-                Need child seats, wheelchair accessibility, or other accommodations? 
-                Contact us directly to discuss your specific needs.
+                For child-seat, accessibility, or other accommodation questions, email us before booking so we can discuss your specific request.
               </p>
             </div>
           </div>

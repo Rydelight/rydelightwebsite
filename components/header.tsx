@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import Image from 'next/image'
 import { Mail, Menu, Phone, X } from 'lucide-react'
 
 const navItems = [
@@ -54,9 +55,12 @@ export default function Header() {
               whileHover={{ scale: 1.03 }}
             >
               <span className="h-10 w-10 overflow-hidden rounded-lg sm:h-12 sm:w-12">
-                <img
+                <Image
                   src="/images/LogoSquareTransparent.png"
                   alt=""
+                  width={48}
+                  height={48}
+                  sizes="48px"
                   className="h-full w-full object-contain"
                 />
               </span>

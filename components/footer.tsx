@@ -2,6 +2,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer() {
@@ -28,10 +29,13 @@ export default function Footer() {
               className="flex items-center space-x-3 mb-6"
             >
               <div className="w-12 h-12 rounded-lg overflow-hidden bg-white/10 p-1">
-                <img 
-                  src="/images/LogoSquareTransparent.png" 
-                  alt="Rydelight Logo" 
-                  className="w-full h-full object-contain"
+                <Image
+                  src="/images/LogoSquareTransparent.png"
+                  alt="Rydelight logo"
+                  width={48}
+                  height={48}
+                  sizes="48px"
+                  className="h-full w-full object-contain"
                 />
               </div>
               <div>
