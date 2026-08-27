@@ -129,8 +129,7 @@ export default function Contact() {
           >
             <h3 className="text-3xl font-bold mb-6">Ready to Book?</h3>
             <p className="text-xl mb-8 opacity-90">
-              Get an instant quote and book your premium chauffeur service 
-              through our secure booking platform.
+              View trip options and direct-booking details through our secure booking flow.
             </p>
             
             <div className="space-y-6">
@@ -140,7 +139,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="block w-full bg-white text-[#0091ea] hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 text-lg"
               >
-                Book Now - Get Instant Quote
+                Book Now
               </a>
               
               <div className="text-center">

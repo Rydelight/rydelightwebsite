@@ -40,9 +40,7 @@ export default function Footer() {
               </div>
             </motion.div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
-              Experience luxury transportation in the DFW metro area with our brand new 
-              2025 Tesla Model Y. Professional, reliable, and environmentally conscious 
-              chauffeur service for all your transportation needs.
+              Private electric chauffeur service across the DFW metro area in a 2025 Tesla Model Y. Thoughtful, owner-operated transportation for airport rides, business travel, events, and special occasions.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">

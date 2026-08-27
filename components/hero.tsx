@@ -50,8 +50,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed"
           >
-            Experience luxury transportation in our brand new 2025 Tesla Model Y. 
-            Perfect for business executives, airport transfers, and special occasions.
+            Experience private electric chauffeur service in a 2025 Tesla Model Y, thoughtfully suited to business travel, airport rides, and special occasions.
           </motion.p>
 
           {/* CTA Buttons */}

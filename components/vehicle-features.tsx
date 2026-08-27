@@ -92,8 +92,7 @@ export default function VehicleFeatures() {
             Experience the <span className="text-[#0091ea]">2025 Tesla Model Y</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Travel in our brand new Tesla Model Y, combining luxury, technology, 
-            and environmental consciousness for the ultimate chauffeur experience.
+            Travel in Rydelight Four, a 2025 Tesla Model Y that pairs a quiet electric ride with modern technology and a refined private experience.
           </p>
         </motion.div>
 
