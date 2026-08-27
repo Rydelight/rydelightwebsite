@@ -25,37 +25,37 @@ export default function VehicleFeatures() {
     {
       icon: Zap,
       title: 'Electric Performance',
-      description: 'Zero emissions with instant acceleration and whisper-quiet operation',
+      description: 'A quiet all-electric ride for a calmer private travel experience',
     },
     {
       icon: Shield,
       title: 'Advanced Safety',
-      description: '5-star safety rating with Autopilot and collision avoidance systems',
+      description: 'A thoughtfully equipped vehicle for private DFW transportation',
     },
     {
       icon: Wifi,
       title: 'Premium Connectivity',
-      description: 'High-speed internet and entertainment system for productive travel',
+      description: 'A refined cabin for a more comfortable travel experience',
     },
     {
       icon: Snowflake,
       title: 'Climate Control',
-      description: 'Dual-zone climate control with HEPA air filtration system',
+      description: 'Climate control designed to help keep the cabin comfortable',
     },
     {
       icon: Volume2,
       title: 'Premium Audio',
-      description: '14-speaker sound system for an immersive audio experience',
+      description: 'A quiet cabin designed for a more relaxed ride',
     },
     {
       icon: Smartphone,
       title: 'Smart Features',
-      description: 'Wireless charging, USB-C ports, and mobile app integration',
+      description: 'Wireless charging and USB-C ports for compatible devices',
     },
     {
       icon: Leaf,
       title: 'Eco-Friendly',
-      description: 'Sustainable luxury with zero local emissions',
+      description: 'All-electric transportation with no tailpipe emissions while driving',
     },
     {
       icon: Star,
@@ -70,7 +70,6 @@ export default function VehicleFeatures() {
     { label: 'Color', value: 'Black Exterior' },
     { label: 'Interior', value: 'White Vegan Leather' },
     { label: 'Seating', value: 'Up to 4 Passengers' },
-    { label: 'Range', value: '330+ Miles' },
   ];
 
   return (
@@ -107,7 +106,7 @@ export default function VehicleFeatures() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
                 src="/images/luggagescifi.jpg"
-                alt="2025 Tesla Model Y with Professional Chauffeur Service - Rydelight"
+                alt="Private electric vehicle prepared for a Rydelight passenger"
                 fill
                 className="object-cover"
               />
@@ -175,27 +174,6 @@ export default function VehicleFeatures() {
           </div>
         </motion.div>
 
-        {/* Interior Showcase */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 1.0 }}
-          className="mt-20 text-center"
-        >
-          <h3 className="text-3xl font-bold mb-8">Luxurious Interior</h3>
-          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden max-w-4xl mx-auto">
-            <Image
-              src="https://i.ytimg.com/vi/cRsjFIU9PXE/maxresdefault.jpg"
-              alt="Tesla Model Y Interior - White Vegan Leather"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <p className="text-gray-300 mt-6 max-w-2xl mx-auto">
-            Relax in premium white vegan leather seats under a panoramic glass roof, 
-            enjoying the spacious and modern interior designed for ultimate comfort.
-          </p>
-        </motion.div>
       </div>
     </section>
   );
