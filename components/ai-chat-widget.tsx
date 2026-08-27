@@ -17,7 +17,7 @@ export default function AIChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: "Hi, I’m Ryder. I can explain Rydelight’s private chauffeur services, vehicle, and service area. For availability, booking, or a trip-specific total, use Book Now, call, or email."
+      content: "Hi, I’m Ryder. I can explain Rydelight’s private chauffeur services, vehicle, and service area. For availability, booking, or a trip-specific total, use Book Now or email booking@rydelight.com."
     }
   ]);
   const [input, setInput] = useState('');
@@ -75,7 +75,7 @@ export default function AIChatWidget() {
         ...prev,
         {
           role: 'assistant',
-          content: "I apologize, but I'm having trouble connecting right now. Please try again or contact us directly at booking@rydelight.com or (469) 919-0519.",
+          content: "I apologize, but I'm having trouble connecting right now. Please try again or email booking@rydelight.com for assistance.",
         },
       ]);
     } finally {

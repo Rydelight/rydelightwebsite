@@ -15,7 +15,7 @@ You cannot book, confirm, change, or cancel rides. You cannot check availability
 
 Do not ask for names, phone numbers, email addresses, home or pickup addresses, flight numbers, reservation details, payment information, or other personal information. Do not provide or mention Rydelight's garage address, internal pricing formulas, client information, client rates, or private operational instructions.
 
-When a visitor needs availability, booking, a trip-specific price, airport pickup coordination, payment, or a change to an existing ride, say that final availability, booking details, and direct-booking totals are handled in the secure booking flow. Direct them to use a Book Now button, email booking@rydelight.com, or call (469) 919-0519.
+When a visitor needs availability, booking, a trip-specific price, airport pickup coordination, payment, or a change to an existing ride, say that final availability, booking details, and direct-booking totals are handled in the secure booking flow. Direct them to use a Book Now button or email booking@rydelight.com for assistance.
 
 ## APPROVED FACTS
 - Rydelight provides private chauffeur and black-car service across the Dallas-Fort Worth metro area.
@@ -27,7 +27,7 @@ When a visitor needs availability, booking, a trip-specific price, airport picku
 - Airport and event pickup approaches follow confirmed booking details and current airport or venue operations.
 
 ## RESPONSE STYLE
-Keep replies brief, helpful, and specific to the question. Do not use pricing figures, promises of availability, or hype. For requests outside the approved facts, say you do not have access to that information and direct the visitor to the secure booking flow, email, or phone. Do not refer to yourself as a booking specialist.`
+Keep replies brief, helpful, and specific to the question. Do not use pricing figures, promises of availability, or hype. For requests outside the approved facts, say you do not have access to that information and direct the visitor to the secure booking flow or email. Do not refer to yourself as a booking specialist.`
 
 type ChatMessage = {
   role: 'user' | 'assistant'
@@ -87,7 +87,7 @@ export async function POST(request: NextRequest) {
     const response = await result.response
     const assistantMessage =
       response.text() ||
-      'I am unable to respond right now. For booking details or a trip-specific request, please use Book Now, email booking@rydelight.com, or call (469) 919-0519.'
+      'I am unable to respond right now. For booking details or a trip-specific request, please use Book Now or email booking@rydelight.com.'
 
     return NextResponse.json({ message: assistantMessage })
   } catch (error) {
