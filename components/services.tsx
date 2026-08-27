@@ -30,6 +30,8 @@ export default function Services() {
       services: ['Airport Transfers', 'Airport Drop Off', 'Airport Pick Up'],
       description: 'Reliable transportation to/from DFW and Love Field airports',
       featured: true,
+      href: '/dfw-airport-transportation',
+      ctaLabel: 'Explore Airport Transportation',
     },
     {
       category: 'Corporate',
@@ -65,6 +67,8 @@ export default function Services() {
       color: 'bg-orange-500',
       services: ['Sporting Events', 'Concerts', 'Night Out'],
       description: 'Enjoy events without worrying about transportation',
+      href: '/concert-event-transportation',
+      ctaLabel: 'Explore Event Transportation',
     },
     {
       category: 'Personal Services',
@@ -254,16 +258,16 @@ export default function Services() {
               </ul>
               
               <a
-                href={service.category === 'Entertainment' ? '/concert-event-transportation' : 'https://customer.moovs.app/rydelight/new/info'}
-                target={service.category === 'Entertainment' ? undefined : '_blank'}
-                rel={service.category === 'Entertainment' ? undefined : 'noopener noreferrer'}
+                href={service.href || 'https://customer.moovs.app/rydelight/new/info'}
+                target={service.href ? undefined : '_blank'}
+                rel={service.href ? undefined : 'noopener noreferrer'}
                 className={`w-full text-center py-3 px-4 rounded-lg font-semibold transition-all duration-300 block ${
                   service.featured
                     ? 'bg-[#0091ea] text-white hover:bg-[#0077c2]'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                {service.category === 'Entertainment' ? 'Explore Event Transportation' : 'Book Now'}
+                {service.ctaLabel || 'Book Now'}
               </a>
             </motion.div>
           ))}
