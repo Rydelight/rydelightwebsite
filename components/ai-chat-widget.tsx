@@ -191,7 +191,7 @@ export default function AIChatWidget() {
             aria-modal="true"
             aria-labelledby="ryder-chat-title"
             aria-describedby="ryder-chat-privacy"
-            className="fixed bottom-24 right-4 z-50 h-[min(600px,calc(100dvh-7rem))] w-[calc(100vw-2rem)] overflow-hidden rounded-2xl bg-white shadow-2xl sm:right-6 sm:h-[600px] sm:w-[380px]"
+            className="fixed bottom-24 right-4 z-50 flex h-[min(600px,calc(100dvh-7rem))] w-[calc(100vw-2rem)] flex-col overflow-hidden rounded-2xl bg-white shadow-2xl sm:right-6 sm:h-[600px] sm:w-[380px]"
           >
             {/* Header */}
             <div className="bg-gradient-to-r from-[#0091ea] to-[#42a5f5] text-white p-4 flex items-center justify-between">
