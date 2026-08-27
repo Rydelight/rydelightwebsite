@@ -7,13 +7,13 @@ import { useInView } from 'react-intersection-observer'
 const serviceStandards = [
   {
     icon: UserRoundCheck,
-    title: 'Owner-Operated Service',
-    detail: 'Scott personally drives every Rydelight Four ride, providing a consistent point of contact from trip planning through arrival.',
+    title: 'Thoughtful Private Service',
+    detail: 'A private chauffeur experience built around clear communication and thoughtful planning from the first details through arrival.',
   },
   {
     icon: CarFront,
     title: 'Private Electric Comfort',
-    detail: 'Travel in Rydelight Four, a 2025 black Tesla Model Y with a white vegan-leather interior, quiet electric ride, and modern charging options.',
+    detail: 'A quiet electric ride, a refined private cabin, and charging options help make time between places feel more composed.',
   },
   {
     icon: MapPin,
@@ -48,7 +48,7 @@ export default function Testimonials() {
             The <span className="text-gradient">Rydelight Standard</span>
           </h2>
           <p className="text-xl leading-relaxed text-gray-600">
-            A thoughtful, owner-operated alternative for travelers who value a quiet ride, clear communication, and a premium electric vehicle.
+            A thoughtful private-service option for travelers who value a quiet ride, clear communication, and a refined electric experience.
           </p>
         </motion.div>
 

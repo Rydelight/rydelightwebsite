@@ -59,16 +59,15 @@ export default function VehicleFeatures() {
     },
     {
       icon: Star,
-      title: 'Luxury Interior',
-      description: 'White vegan leather seats with panoramic glass roof',
+      title: 'Comfortable Interior',
+      description: 'A refined private cabin designed for a more comfortable ride',
     },
   ];
 
   const specs = [
-    { label: 'Model Year', value: '2025' },
-    { label: 'Vehicle', value: 'Tesla Model Y' },
-    { label: 'Color', value: 'Black Exterior' },
-    { label: 'Interior', value: 'White Vegan Leather' },
+    { label: 'Service Style', value: 'Private Electric Chauffeur' },
+    { label: 'Exterior', value: 'Black' },
+    { label: 'Cabin', value: 'Refined Private Interior' },
     { label: 'Seating', value: 'Up to 4 Passengers' },
   ];
 
@@ -88,10 +87,10 @@ export default function VehicleFeatures() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Experience the <span className="text-[#0091ea]">2025 Tesla Model Y</span>
+            Experience a <span className="text-[#0091ea]">Private Electric Ride</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Travel in Rydelight Four, a 2025 Tesla Model Y that pairs a quiet electric ride with modern technology and a refined private experience.
+            Travel in a private electric vehicle selected for a quiet ride, modern technology, and a refined private experience.
           </p>
         </motion.div>
 
@@ -120,7 +119,7 @@ export default function VehicleFeatures() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h3 className="text-3xl font-bold mb-8">Vehicle Specifications</h3>
+            <h3 className="text-3xl font-bold mb-8">Private Ride Details</h3>
             <div className="space-y-4">
               {specs.map((spec, index) => (
                 <motion.div
@@ -142,7 +141,7 @@ export default function VehicleFeatures() {
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center space-x-2"
               >
-                <span>Book Your Tesla Experience</span>
+                <span>Book Your Private Ride</span>
               </a>
             </div>
           </motion.div>

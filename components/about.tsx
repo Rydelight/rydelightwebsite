@@ -20,7 +20,7 @@ export default function About() {
           transition={{ duration: 0.8 }}
           className="mx-auto mb-16 max-w-3xl text-center"
         >
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#0091ea]">Owner-operated private service</p>
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#0091ea]">Private electric service</p>
           <h2 id="about-heading" className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">
             About <span className="text-gradient">Rydelight</span>
           </h2>
@@ -38,10 +38,10 @@ export default function About() {
             <h3 className="mb-6 text-3xl font-bold text-gray-900">Professional, Personal, and Purposeful</h3>
             <div className="space-y-6 text-lg leading-relaxed text-gray-600">
               <p>
-                Rydelight is an owner-operated chauffeur service. Scott personally drives every Rydelight Four ride, providing one accountable point of contact for airport trips, business travel, special occasions, and everyday transportation needs.
+                Rydelight is a private chauffeur service built around clear communication and thoughtful transportation for airport trips, business travel, special occasions, and everyday transportation needs.
               </p>
               <p>
-                The 2025 Tesla Model Y pairs a quiet electric ride with a spacious cabin, modern safety features, and a white vegan-leather interior designed for a comfortable private experience.
+                A quiet electric ride, comfortable cabin, modern safety features, and refined interior help create a more comfortable private experience.
               </p>
               <p>
                 Rydelight serves the greater DFW metro area within 75 miles, with particular attention to airport transfers, corporate travel, special occasions, and local events.
@@ -83,8 +83,7 @@ export default function About() {
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-xl bg-[#0091ea] p-6 text-white shadow-lg">
               <div className="text-center">
-                <div className="text-2xl font-bold">2025</div>
-                <div className="text-sm">Tesla Model Y</div>
+                <div className="text-sm font-semibold">Private Electric Service</div>
               </div>
             </div>
           </motion.div>

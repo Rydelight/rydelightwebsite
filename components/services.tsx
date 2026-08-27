@@ -136,7 +136,7 @@ export default function Services() {
             
             <p className="text-xl text-center mb-8 opacity-90 max-w-3xl mx-auto leading-relaxed">
               Elevate your journey with our exclusive beverage service. Enjoy premium drinks 
-              perfectly chilled in our Tesla&apos;s sub-trunk freezer while you travel in luxury.
+              perfectly chilled with onboard cooling while you travel in luxury.
             </p>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
@@ -200,7 +200,7 @@ export default function Services() {
                 </div>
                 <div className="flex items-start space-x-2">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0" />
-                  <span><strong>Temperature:</strong> Perfectly chilled in sub-trunk freezer</span>
+                  <span><strong>Temperature:</strong> Perfectly chilled with onboard cooling</span>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 const siteUrl = 'https://rydelight.com'
 const homepageTitle = 'Rydelight | Private Electric Chauffeur Service in DFW'
 const homepageDescription =
-  'Private electric chauffeur service across Dallas-Fort Worth for airport transfers, business travel, events, and special occasions. Travel in a 2025 Tesla Model Y with Rydelight.'
+  'Private electric chauffeur service across Dallas-Fort Worth for airport transfers, business travel, events, and special occasions.'
 const socialImage = `${siteUrl}/images/rydelight-home-hero-private-electric.png`
 
 export const metadata: Metadata = {

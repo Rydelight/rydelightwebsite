@@ -23,7 +23,7 @@ const pageUrl = 'https://rydelight.com/concert-event-transportation'
 const heroImageUrl = 'https://rydelight.com/images/rydelight-event-transportation-hero.png'
 const pageTitle = 'DFW Concert & Event Transportation | Rydelight'
 const pageDescription =
-  'Private electric black-car service for concerts, sporting events, galas, dinners, and nights out across Dallas-Fort Worth. Travel in a 2025 Tesla Model Y with a planned pickup approach.'
+  'Private electric black-car service for concerts, sporting events, galas, dinners, and nights out across Dallas-Fort Worth, with a planned pickup approach.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://rydelight.com'),
@@ -139,11 +139,10 @@ const occasions = [
 ]
 
 const vehicleDetails = [
-  '2025 black Tesla Model Y',
-  'White vegan-leather interior and panoramic glass roof',
-  'Whisper-quiet electric ride',
+  'Quiet electric ride',
+  'Comfortable private cabin',
   'Wireless charging and USB-C ports',
-  'Private owner-led service',
+  'Private chauffeur service',
 ]
 
 const bookingSteps = [
@@ -176,7 +175,7 @@ const faqs = [
   {
     question: 'How many guests can ride together?',
     answer:
-      'Rydelight Four accommodates up to four guests. Three are recommended for maximum comfort.',
+      'The private vehicle accommodates up to four guests. Three are recommended for maximum comfort.',
   },
   {
     question: 'How is post-event pickup handled?',
@@ -257,7 +256,7 @@ export default function ConcertEventTransportationPage() {
               Your event starts before the doors open.
             </h1>
             <p className="mt-7 max-w-xl text-lg leading-8 text-slate-200 sm:text-xl">
-              Private, all-electric black-car service for concerts, sporting events, dinners, galas, and celebrations across DFW. Ride in a 2025 Tesla Model Y and arrive with a pickup approach already discussed with your booking.
+              Private, all-electric black-car service for concerts, sporting events, dinners, galas, and celebrations across DFW. Arrive with a pickup approach already discussed with your booking.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
@@ -276,7 +275,7 @@ export default function ConcertEventTransportationPage() {
               </a>
             </div>
             <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 border-t border-white/15 pt-6 text-sm text-slate-200">
-              <span className="inline-flex items-center gap-2"><CarFront className="h-4 w-4 text-[#70cbff]" /> Rydelight Four</span>
+              <span className="inline-flex items-center gap-2"><CarFront className="h-4 w-4 text-[#70cbff]" /> Private electric vehicle</span>
               <span className="inline-flex items-center gap-2"><Users className="h-4 w-4 text-[#70cbff]" /> Up to 4 guests</span>
               <span className="inline-flex items-center gap-2"><Sparkles className="h-4 w-4 text-[#70cbff]" /> 3 recommended for comfort</span>
             </div>
@@ -330,10 +329,10 @@ export default function ConcertEventTransportationPage() {
       <section className="overflow-hidden bg-[#f7fbff] px-5 py-20 text-[#0b1728] sm:px-8 lg:py-28">
         <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#0077c2]">Rydelight Four</p>
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#0077c2]">Private electric service</p>
             <h2 className="mt-4 max-w-xl text-4xl font-bold leading-tight tracking-[-0.04em] sm:text-5xl">An event-night ride should feel intentional.</h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
-              Your private ride is a 2025 black Tesla Model Y with a clean, quiet cabin built for conversation, charging, and a smoother start to the night.
+              Your private ride includes a clean, quiet cabin built for conversation, charging, and a smoother start to the night.
             </p>
             <ul className="mt-8 space-y-4">
               {vehicleDetails.map((detail) => (
@@ -344,7 +343,7 @@ export default function ConcertEventTransportationPage() {
               ))}
             </ul>
             <p className="mt-8 rounded-xl border border-[#bfddf2] bg-[#eaf6ff] px-5 py-4 text-sm leading-6 text-[#1c4667]">
-              Rydelight Four accommodates up to four guests. Three guests are recommended for maximum comfort.
+              The private vehicle accommodates up to four guests. Three guests are recommended for maximum comfort.
             </p>
           </div>
           <div className="relative min-h-[430px] overflow-hidden rounded-3xl bg-[#07101d] p-7 shadow-2xl sm:p-10">
