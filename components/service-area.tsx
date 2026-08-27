@@ -3,8 +3,8 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { MapPin, Clock, Plane, Building2 } from 'lucide-react';
-import Image from 'next/image';
+import { ArrowRight, MapPin, Clock, Plane, Building2 } from 'lucide-react';
+import Link from 'next/link';
 
 export default function ServiceArea() {
   const [ref, inView] = useInView({
@@ -76,8 +76,8 @@ export default function ServiceArea() {
     },
     {
       icon: Plane,
-      title: 'Airport Specialists',
-      description: 'Expert knowledge of DFW and Love Field terminals',
+      title: 'Airport-Focused Service',
+      description: 'Thoughtful planning for DFW and Love Field bookings',
     },
   ];
 
@@ -125,24 +125,40 @@ export default function ServiceArea() {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Map/Visual */}
+          {/* Service area overview */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.6 }}
             className="relative"
           >
-            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="https://lh5.googleusercontent.com/proxy/fA4kmiqY7_U8JaUcLlCRMwdmvYAmSdaqI96FZKZZopLj1SuP3wYc7CAAtG96W1ksFdyoJ62U-cpvLR_TQ8GFQvA60HUoXNCS2dfTXSMlGpeDIqtzdi2IZQB7BmeuxGJlnDSM0LJwCfCC=s0-d"
-                alt="DFW Metro Area Service Map"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-              <div className="absolute bottom-6 left-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">75-Mile Coverage</h3>
-                <p className="text-gray-200">Complete DFW Metro Area</p>
+            <div className="relative min-h-[28rem] overflow-hidden rounded-2xl bg-gradient-to-br from-slate-950 via-slate-900 to-[#075985] p-8 text-white shadow-2xl sm:p-10">
+              <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-[#0091ea]/25 blur-3xl" aria-hidden="true" />
+              <div className="absolute -bottom-28 -left-16 h-72 w-72 rounded-full bg-cyan-300/10 blur-3xl" aria-hidden="true" />
+              <div className="relative flex h-full flex-col justify-between">
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-200">DFW service area</p>
+                  <h3 className="mt-4 max-w-md text-3xl font-bold leading-tight sm:text-4xl">Local coverage with a more thoughtful ride.</h3>
+                  <p className="mt-5 max-w-md text-base leading-relaxed text-slate-200 sm:text-lg">
+                    Rydelight serves Dallas-Fort Worth within a 75-mile radius, including airport trips, business travel, special occasions, and local events.
+                  </p>
+                </div>
+                <div>
+                  <div className="grid grid-cols-2 gap-3 text-sm font-medium text-slate-100 sm:grid-cols-3">
+                    {['DFW Airport', 'Love Field', 'Dallas', 'Fort Worth', 'Plano', 'Frisco'].map((location) => (
+                      <span key={location} className="rounded-full border border-white/20 bg-white/10 px-3 py-2 text-center backdrop-blur-sm">
+                        {location}
+                      </span>
+                    ))}
+                  </div>
+                  <Link
+                    href="/dfw-airport-transportation/"
+                    className="mt-7 inline-flex items-center gap-2 font-semibold text-white transition-colors hover:text-cyan-200"
+                  >
+                    Explore airport transportation
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </Link>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -192,8 +208,7 @@ export default function ServiceArea() {
             Need Service Outside Our Area?
           </h3>
           <p className="text-xl text-gray-600 mb-8">
-            Contact us for special arrangements and custom transportation solutions 
-            beyond our standard 75-mile service radius.
+            Email Rydelight with your request if your trip falls outside the standard 75-mile service radius.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a
@@ -202,13 +217,13 @@ export default function ServiceArea() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Book Standard Service
+              Start a Booking
             </a>
             <a
               href="mailto:booking@rydelight.com"
               className="btn-secondary"
             >
-              Request Custom Service
+              Email Your Request
             </a>
           </div>
         </motion.div>
