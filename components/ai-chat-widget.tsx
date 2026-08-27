@@ -24,6 +24,7 @@ export default function AIChatWidget() {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const chatButtonRef = useRef<HTMLButtonElement>(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -38,6 +39,26 @@ export default function AIChatWidget() {
       inputRef.current.focus();
     }
   }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setIsOpen(false);
+        chatButtonRef.current?.focus();
+      }
+    };
+
+    window.addEventListener('keydown', handleEscape);
+    return () => window.removeEventListener('keydown', handleEscape);
+  }, [isOpen]);
+
+  const closeChat = () => {
+    setIsOpen(false);
+    requestAnimationFrame(() => chatButtonRef.current?.focus());
+  };
 
   const handleSendMessage = async () => {
     if (!input.trim() || isLoading) return;
@@ -94,6 +115,7 @@ export default function AIChatWidget() {
     <>
       {/* Chat Button */}
       <motion.button
+        ref={chatButtonRef}
         onClick={() => {
           if (!isOpen) trackCta('chat', 'chat_launcher')
           setIsOpen(!isOpen)
@@ -103,6 +125,7 @@ export default function AIChatWidget() {
         whileTap={{ scale: 0.9 }}
         aria-label={isOpen ? 'Close Ryder chat' : 'Open Ryder chat'}
         aria-expanded={isOpen}
+        aria-controls="ryder-chat-dialog"
       >
         <AnimatePresence mode="wait">
           {isOpen ? (
@@ -135,7 +158,12 @@ export default function AIChatWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="fixed bottom-24 right-6 z-50 w-[380px] h-[600px] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden"
+            id="ryder-chat-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="ryder-chat-title"
+            aria-describedby="ryder-chat-privacy"
+            className="fixed bottom-24 right-6 z-50 h-[600px] w-[380px] overflow-hidden rounded-2xl bg-white shadow-2xl"
           >
             {/* Header */}
             <div className="bg-gradient-to-r from-[#0091ea] to-[#42a5f5] text-white p-4 flex items-center justify-between">
@@ -144,12 +172,12 @@ export default function AIChatWidget() {
                   <MessageCircle className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg">Ryder</h3>
+                  <h3 id="ryder-chat-title" className="text-lg font-bold">Ryder</h3>
                   <p className="text-xs opacity-90">Rydelight Information Assistant</p>
                 </div>
               </div>
               <button
-                onClick={() => setIsOpen(false)}
+                onClick={closeChat}
                 aria-label="Close Ryder chat"
                 className="hover:bg-white/20 rounded-full p-1 transition-colors"
               >
@@ -158,7 +186,7 @@ export default function AIChatWidget() {
             </div>
 
             {/* Messages */}
-            <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
+            <div className="flex-1 space-y-4 overflow-y-auto bg-gray-50 p-4" role="log" aria-live="polite" aria-relevant="additions text">
               {messages.map((message, index) => (
                 <motion.div
                   key={index}
@@ -210,9 +238,11 @@ export default function AIChatWidget() {
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  onKeyPress={handleKeyPress}
+                  onKeyDown={handleKeyPress}
                   placeholder="Ask about Rydelight services..."
                   aria-label="Message Ryder"
+                  autoComplete="off"
+                  maxLength={1500}
                   className="flex-1 px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0091ea] focus:border-transparent text-sm"
                   disabled={isLoading}
                 />
@@ -225,7 +255,10 @@ export default function AIChatWidget() {
                   <Send className="w-5 h-5" />
                 </button>
               </div>
-              <p className="text-xs text-gray-500 mt-2 text-center">
+              <p id="ryder-chat-privacy" className="mt-2 text-center text-xs text-gray-500">
+                For general service information only. Do not enter booking, trip, personal, or payment details.
+              </p>
+              <p className="mt-1 text-center text-xs text-gray-500">
                 Powered by AI • Information only
               </p>
             </div>
