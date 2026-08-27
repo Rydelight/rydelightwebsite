@@ -19,6 +19,7 @@ export default function Header() {
   const navItems = [
     { name: 'About', href: '/#about' },
     { name: 'Services', href: '/#services' },
+    { name: 'Airport', href: '/dfw-airport-transportation' },
     { name: 'Events', href: '/concert-event-transportation' },
     { name: 'Vehicle', href: '/#vehicle' },
     { name: 'Service Area', href: '/#service-area' },
