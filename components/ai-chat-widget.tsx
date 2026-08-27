@@ -25,6 +25,7 @@ export default function AIChatWidget() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const chatButtonRef = useRef<HTMLButtonElement>(null);
+  const chatDialogRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -43,16 +44,37 @@ export default function AIChatWidget() {
   useEffect(() => {
     if (!isOpen) return;
 
-    const handleEscape = (event: KeyboardEvent) => {
+    const handleDialogKeydown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         event.preventDefault();
         setIsOpen(false);
         chatButtonRef.current?.focus();
+        return;
+      }
+
+      if (event.key !== 'Tab' || !chatDialogRef.current) return;
+
+      const focusableElements = Array.from(
+        chatDialogRef.current.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        ),
+      );
+
+      const firstElement = focusableElements[0];
+      const lastElement = focusableElements[focusableElements.length - 1];
+      if (!firstElement || !lastElement) return;
+
+      if (event.shiftKey && document.activeElement === firstElement) {
+        event.preventDefault();
+        lastElement.focus();
+      } else if (!event.shiftKey && document.activeElement === lastElement) {
+        event.preventDefault();
+        firstElement.focus();
       }
     };
 
-    window.addEventListener('keydown', handleEscape);
-    return () => window.removeEventListener('keydown', handleEscape);
+    window.addEventListener('keydown', handleDialogKeydown);
+    return () => window.removeEventListener('keydown', handleDialogKeydown);
   }, [isOpen]);
 
   const closeChat = () => {
@@ -117,8 +139,13 @@ export default function AIChatWidget() {
       <motion.button
         ref={chatButtonRef}
         onClick={() => {
-          if (!isOpen) trackCta('chat', 'chat_launcher')
-          setIsOpen(!isOpen)
+          if (isOpen) {
+            closeChat()
+            return
+          }
+
+          trackCta('chat', 'chat_launcher')
+          setIsOpen(true)
         }}
         className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#0091ea] to-[#42a5f5] text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300"
         whileHover={{ scale: 1.1 }}
@@ -154,6 +181,7 @@ export default function AIChatWidget() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            ref={chatDialogRef}
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
@@ -163,7 +191,7 @@ export default function AIChatWidget() {
             aria-modal="true"
             aria-labelledby="ryder-chat-title"
             aria-describedby="ryder-chat-privacy"
-            className="fixed bottom-24 right-6 z-50 h-[600px] w-[380px] overflow-hidden rounded-2xl bg-white shadow-2xl"
+            className="fixed bottom-24 right-4 z-50 h-[min(600px,calc(100dvh-7rem))] w-[calc(100vw-2rem)] overflow-hidden rounded-2xl bg-white shadow-2xl sm:right-6 sm:h-[600px] sm:w-[380px]"
           >
             {/* Header */}
             <div className="bg-gradient-to-r from-[#0091ea] to-[#42a5f5] text-white p-4 flex items-center justify-between">
