@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
+import AnalyticsCtaTracker from '@/components/analytics-cta-tracker'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -75,6 +76,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
+        <AnalyticsCtaTracker />
         <Script id="organization-structured-data" type="application/ld+json">
           {JSON.stringify(organizationStructuredData)}
         </Script>

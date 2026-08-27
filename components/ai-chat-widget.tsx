@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, Send, Loader2 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { trackCta } from '@/components/analytics-cta-tracker';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -93,7 +94,10 @@ export default function AIChatWidget() {
     <>
       {/* Chat Button */}
       <motion.button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          if (!isOpen) trackCta('chat', 'chat_launcher')
+          setIsOpen(!isOpen)
+        }}
         className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#0091ea] to-[#42a5f5] text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
