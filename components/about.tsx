@@ -74,8 +74,8 @@ export default function About() {
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
               <Image
-                src="/images/rydelight-private-electric-service.png"
-                alt="Black electric SUV with a bright private passenger interior at a modern arrival canopy"
+                src="/images/rydelight-private-electric-service-corrected.png"
+                alt="Black electric chauffeur vehicle outside a modern Dallas-Fort Worth arrival entrance"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"

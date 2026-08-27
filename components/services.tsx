@@ -157,8 +157,8 @@ export default function Services() {
                     </div>
                   ))}
                 </div>
-                <p className="text-sm opacity-75 mt-3">
-                  Special requests available with additional fee
+                <p className="mt-3 text-xs leading-relaxed text-white/65">
+                  <span aria-hidden="true">*</span> Special beverage requests may carry an additional fee.
                 </p>
               </div>
               
