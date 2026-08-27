@@ -159,10 +159,10 @@ export default function Contact() {
             <div className="mt-8 pt-8 border-t border-white/20">
               <h4 className="font-semibold mb-4">Our Service Promise</h4>
               <div className="grid grid-cols-2 gap-4 text-sm">
-                <div>✓ On-time guarantee</div>
+                <div>✓ On-time focus</div>
                 <div>✓ Professional service</div>
                 <div>✓ Clean, luxury vehicle</div>
-                <div>✓ Competitive pricing</div>
+                <div>✓ Private electric service</div>
               </div>
             </div>
           </motion.div>
@@ -180,15 +180,13 @@ export default function Contact() {
             <div>
               <h4 className="font-semibold text-[#0091ea] mb-2">Advance Booking</h4>
               <p className="text-gray-300">
-                We recommend booking at least 24 hours in advance for guaranteed availability, 
-                though same-day service may be available.
+                Advance booking is recommended, particularly for airport rides, events, and early departures. Same-day requests are subject to availability.
               </p>
             </div>
             <div>
-              <h4 className="font-semibold text-[#0091ea] mb-2">Quote Approval</h4>
+              <h4 className="font-semibold text-[#0091ea] mb-2">Booking Details</h4>
               <p className="text-gray-300">
-                All quotes require manual approval to ensure accurate pricing and availability. 
-                You'll receive confirmation within a few hours.
+                Final availability and direct-booking totals are confirmed in the secure booking flow. Email us for help with a specific request.
               </p>
             </div>
             <div>
