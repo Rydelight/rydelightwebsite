@@ -17,7 +17,7 @@ export default function AIChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: "Hi! I'm Ryder, your Rydelight booking specialist. I can help you get an instant price quote for your trip and answer questions about our premium chauffeur service. What can I help you with today?"
+      content: "Hi, I’m Ryder. I can explain Rydelight’s private chauffeur services, vehicle, and service area. For availability, booking, or a trip-specific total, use Book Now, call, or email."
     }
   ]);
   const [input, setInput] = useState('');
@@ -101,7 +101,8 @@ export default function AIChatWidget() {
         className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#0091ea] to-[#42a5f5] text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        aria-label="Open chat"
+        aria-label={isOpen ? 'Close Ryder chat' : 'Open Ryder chat'}
+        aria-expanded={isOpen}
       >
         <AnimatePresence mode="wait">
           {isOpen ? (
@@ -144,11 +145,12 @@ export default function AIChatWidget() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg">Ryder</h3>
-                  <p className="text-xs opacity-90">Rydelight Booking Specialist</p>
+                  <p className="text-xs opacity-90">Rydelight Information Assistant</p>
                 </div>
               </div>
               <button
                 onClick={() => setIsOpen(false)}
+                aria-label="Close Ryder chat"
                 className="hover:bg-white/20 rounded-full p-1 transition-colors"
               >
                 <X className="w-5 h-5" />
@@ -209,7 +211,8 @@ export default function AIChatWidget() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  placeholder="Type your message..."
+                  placeholder="Ask about Rydelight services..."
+                  aria-label="Message Ryder"
                   className="flex-1 px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0091ea] focus:border-transparent text-sm"
                   disabled={isLoading}
                 />
@@ -217,12 +220,13 @@ export default function AIChatWidget() {
                   onClick={handleSendMessage}
                   disabled={!input.trim() || isLoading}
                   className="bg-[#0091ea] text-white p-3 rounded-xl hover:bg-[#0077c2] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  aria-label="Send message"
                 >
                   <Send className="w-5 h-5" />
                 </button>
               </div>
               <p className="text-xs text-gray-500 mt-2 text-center">
-                Powered by AI • For booking assistance
+                Powered by AI • Information only
               </p>
             </div>
           </motion.div>
