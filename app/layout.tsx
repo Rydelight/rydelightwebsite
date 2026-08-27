@@ -75,6 +75,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <a
+          href="#main-content"
+          className="sr-only fixed left-4 top-4 z-[100] rounded-md bg-white px-4 py-3 font-semibold text-gray-900 shadow-lg focus:not-sr-only focus:outline-none focus:ring-4 focus:ring-[#0091ea]"
+        >
+          Skip to main content
+        </a>
         {children}
         <AnalyticsCtaTracker />
         <Script id="organization-structured-data" type="application/ld+json">
