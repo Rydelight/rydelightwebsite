@@ -22,8 +22,8 @@ export default function Contact() {
     {
       icon: Clock,
       title: 'Service Hours',
-      details: '24/7 Available',
-      description: 'Round-the-clock service for your convenience',
+      details: 'Availability Confirmed at Booking',
+      description: 'Review final trip availability in the secure booking flow',
     },
     {
       icon: MapPin,
