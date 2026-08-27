@@ -15,9 +15,10 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full bg-gradient-to-r from-black/60 to-black/40">
           <Image
-            src="https://content.app-sources.com/s/29293006541839925/uploads/Cars/2020-Tesla-Model-Y-front-4479907.png"
-            alt="Rydelight Tesla Model Y at DFW Airport"
+            src="/images/rydelight-home-hero-private-electric.png"
+            alt="Private electric chauffeur vehicle in the Dallas-Fort Worth area"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
