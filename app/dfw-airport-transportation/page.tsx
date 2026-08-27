@@ -216,7 +216,7 @@ const faqs = [
 
 export default function DfwAirportTransportationPage() {
   return (
-    <main id="main-content" className="min-h-screen bg-[#070D17] text-white selection:bg-[#0091ea] selection:text-white">
+    <main id="main-content" tabIndex={-1} className="min-h-screen bg-[#070D17] text-white selection:bg-[#0091ea] selection:text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(airportPageStructuredData) }}

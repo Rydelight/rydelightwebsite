@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main id="main-content" className="min-h-screen overflow-x-hidden">
+      <main id="main-content" tabIndex={-1} className="min-h-screen overflow-x-hidden">
         <Hero />
         <About />
         <Services />

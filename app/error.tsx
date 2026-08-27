@@ -16,7 +16,7 @@ export default function GlobalError({
   }, [error])
 
   return (
-    <main id="main-content" className="flex min-h-screen items-center bg-slate-950 px-5 py-20 text-white sm:px-8">
+    <main id="main-content" tabIndex={-1} className="flex min-h-screen items-center bg-slate-950 px-5 py-20 text-white sm:px-8">
       <div className="mx-auto w-full max-w-3xl rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur-sm sm:p-12">
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-200">Rydelight</p>
         <h1 className="mt-8 max-w-xl text-3xl font-bold leading-tight sm:text-5xl">This page needs another try.</h1>
